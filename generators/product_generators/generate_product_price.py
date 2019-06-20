@@ -1,8 +1,8 @@
 
 import json
-import file_writer
-import templates
-import config_data_map
+from utils import file_writer
+from source import templates
+from source import config_data_map
 
 
 def generate():

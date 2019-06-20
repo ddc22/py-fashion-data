@@ -1,4 +1,5 @@
-from util import SafeDict
+from utils import util
+SafeDict = util.SafeDict
 
 sku_product = """
     <retail:skuProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns12="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

@@ -1,9 +1,10 @@
 
-import templates
-import config_data_map
-import logging
-import file_writer
+from source import cat_hierarchy
+from source import config_data_map
+from source import templates
 
+import logging
+from utils import file_writer
 generated_data = {
     "products_array": [],
     "product_image_map": {

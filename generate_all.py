@@ -2,18 +2,19 @@ import shutil
 import os
 import sys
 import json
-import util
-import file_writer
+from utils import file_writer
 import logging
 
-import templates
-import config_data_map
-import generate_products
-import generate_supplier_product
-import generate_product_media
-import generate_product_price
-import generate_product_group
-import generate_brand_group
+from source import templates
+from source import config_data_map
+
+from generators.product_generators import generate_products
+from generators.product_generators import generate_supplier_product
+from generators.product_generators import generate_product_media
+from generators.product_generators import generate_product_price
+
+from generators.group_generators import generate_product_group
+from generators.group_generators import generate_brand_group
 
 
 shutil.rmtree('configs')

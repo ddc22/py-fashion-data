@@ -1,7 +1,7 @@
-import templates
-import file_writer
-import config_data_map
+from source import templates
+from source import cat_hierarchy
 
+from utils import file_writer
 
 level_1 = "FASHION"
 
@@ -21,7 +21,7 @@ def generate_product_group(category, parent_hierarchy=[]):
 
     l += 1
     level["level_"+str(l)] = category["group_id"]
-    xml_doc = templates.product_group.format(
+    xml_doc = templates.group.format(
         group_id=category["group_id"],
         level_1=level["level_1"],
         level_2=level["level_2"],
@@ -34,6 +34,8 @@ def generate_product_group(category, parent_hierarchy=[]):
         level_9=level["level_9"],
         level_10=level["level_10"],
         name=category["name"],
+        group_type_id='productGroup',
+        group_hierarchy_id=level_1,
         level=str(current_level)
     )
     print(category["group_id"], current_level)
@@ -50,45 +52,19 @@ def generate_product_group(category, parent_hierarchy=[]):
 def generate():
 
     xml_collection = []
-    brand_set = set()
-    for category_id, products in config_data_map.product_data.items():
-        for product in products:
-            brand_set.add(product["brand"])
-
-    for brand in brand_set:
-        group_id = brand.upper().replace(" ", "_")
-        group_name = brand.title()
-        print(group_id)
-        xml_doc = templates.group.format(
-            group_id=group_id,
-            level_1=level_1,
-            level_2=group_id,
-            level_3='',
-            level_4='',
-            level_5='',
-            level_6='',
-            level_7='',
-            level_8='',
-            level_9='',
-            level_10='',
-            name=brand.title(),
-            group_type_id='brand',
-            group_hierarchy_id=level_1,
-            level=2
-        )
-        xml_collection.append(xml_doc)
-
+    for category in cat_hierarchy.data:
+        xml_collection.extend(generate_product_group(category))
     print("""
 
-    **********************************
+    ********************************************
 
-        Generated brand count {count}
+        Generated product group count {count}
 
-    **********************************
+    ********************************************
 
 
     """.format(count=str(len(xml_collection))))
-    file_writer.write_config("BrandGroup.xml", xml_collection)
+    file_writer.write_config("ProductGroup.xml", xml_collection)
 
 
 # generate()

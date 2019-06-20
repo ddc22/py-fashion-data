@@ -1,6 +1,5 @@
-import templates
-import file_writer
-
+from source import templates
+from utils import file_writer
 media = ["LARGE", "THUMB"]
 
 # SAMPLE
