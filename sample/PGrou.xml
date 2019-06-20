@@ -40,3 +40,48 @@
     <retail:exportWarningMessage></retail:exportWarningMessage>
     <retail:fasciaId groupTypeId="fascia"></retail:fasciaId>
 </retail:mmGroup>
+
+
+
+<retail:productGroup xmlns:core="http://www.enactor.com/core" 
+    xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+    xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+    xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+    xmlns:ns11="http://www.enactor.com/retail/storedRetailTransaction/service" 
+    xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+    xmlns:ns4="http://www.enactor.com/crm" 
+    xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+    xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+    xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" 
+    xmlns:retail="http://www.enactor.com/retail" 
+    xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+    xmlns:tools="http://www.enactor.com/tools" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId>MC_JACKETS_COATS</retail:groupId>
+    <retail:groupTypeId>productGroup</retail:groupTypeId>
+    <retail:groupHierarchyId>FASHION</retail:groupHierarchyId>
+    <retail:level>4</retail:level>
+    <retail:level10GroupId></retail:level10GroupId>
+    <retail:level1GroupId>FASHION</retail:level1GroupId>
+    <retail:level2GroupId>WOMENS</retail:level2GroupId>
+    <retail:level3GroupId>M_CLOTHING</retail:level3GroupId>
+    <retail:level4GroupId>MC_JACKETS_COATS</retail:level4GroupId>
+    <retail:level5GroupId></retail:level5GroupId>
+    <retail:level6GroupId></retail:level6GroupId>
+    <retail:level7GroupId></retail:level7GroupId>
+    <retail:level8GroupId></retail:level8GroupId>
+    <retail:level9GroupId></retail:level9GroupId>
+    <retail:name>Mens Clothin</retail:name>
+    <retail:variantGroupId>All</retail:variantGroupId>
+    <retail:variantGroupTypeId>region</retail:variantGroupTypeId>
+    <retail:variantGroupHierarchyId>All</retail:variantGroupHierarchyId>
+    <retail:variantLevel>1</retail:variantLevel>
+    <retail:allowPriceEntry>false</retail:allowPriceEntry>
+    <retail:concession>false</retail:concession>
+    <retail:forceMessageAcknowledgement>false</retail:forceMessageAcknowledgement>
+    <retail:operatorMessage/>
+    <retail:quantityEntry>false</retail:quantityEntry>
+    <retail:receiptMessage/>
+    <retail:exportWarningMessage></retail:exportWarningMessage>
+    <retail:fasciaId groupTypeId="fascia"></retail:fasciaId>
+</retail:productGroup>

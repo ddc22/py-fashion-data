@@ -229,6 +229,7 @@ def sample_supplier_product_cost():
     ))
     print("###### supplier_product #######")
     print(sample)
+# sample_supplier_product_cost()
 
 
 product_price = """
@@ -246,4 +247,87 @@ product_price = """
 </retail:productPrice>
 """
 
-# sample_supplier_product_cost()
+
+def sample_product_price():
+    sample = product_price.format_map(SafeDict(
+        price='400.00',
+        product_id='ID816BN',
+        currency_id='GBP',
+        price_type='R'
+    ))
+    print("###### supplier_product #######")
+    print(sample)
+
+
+# sample_product_price()
+
+
+group = """
+<retail:productGroup xmlns:core="http://www.enactor.com/core" 
+    xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+    xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+    xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+    xmlns:ns11="http://www.enactor.com/retail/storedRetailTransaction/service" 
+    xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+    xmlns:ns4="http://www.enactor.com/crm" 
+    xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+    xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+    xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" 
+    xmlns:retail="http://www.enactor.com/retail" 
+    xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+    xmlns:tools="http://www.enactor.com/tools" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId>{group_id}</retail:groupId>
+    <retail:groupTypeId>{group_type_id}</retail:groupTypeId>
+    <retail:groupHierarchyId>{group_hierarchy_id}</retail:groupHierarchyId>
+    <retail:level>{level}</retail:level>
+    <retail:level10GroupId>{level_10}</retail:level10GroupId>
+    <retail:level1GroupId>{level_1}</retail:level1GroupId>
+    <retail:level2GroupId>{level_2}</retail:level2GroupId>
+    <retail:level3GroupId>{level_3}</retail:level3GroupId>
+    <retail:level4GroupId>{level_4}</retail:level4GroupId>
+    <retail:level5GroupId>{level_5}</retail:level5GroupId>
+    <retail:level6GroupId>{level_6}</retail:level6GroupId>
+    <retail:level7GroupId>{level_7}</retail:level7GroupId>
+    <retail:level8GroupId>{level_8}</retail:level8GroupId>
+    <retail:level9GroupId>{level_9}</retail:level9GroupId>
+    <retail:name>{name}</retail:name>
+    <retail:variantGroupId>All</retail:variantGroupId>
+    <retail:variantGroupTypeId>region</retail:variantGroupTypeId>
+    <retail:variantGroupHierarchyId>All</retail:variantGroupHierarchyId>
+    <retail:variantLevel>1</retail:variantLevel>
+    <retail:allowPriceEntry>false</retail:allowPriceEntry>
+    <retail:concession>false</retail:concession>
+    <retail:forceMessageAcknowledgement>false</retail:forceMessageAcknowledgement>
+    <retail:operatorMessage/>
+    <retail:quantityEntry>false</retail:quantityEntry>
+    <retail:receiptMessage/>
+    <retail:exportWarningMessage></retail:exportWarningMessage>
+    <retail:fasciaId groupTypeId="fascia"></retail:fasciaId>
+</retail:productGroup>
+"""
+
+
+def sample_group():
+    sample = product_group.format_map(SafeDict(
+        group_id='MC_JACKETS_COATS',
+        level_1='FASHION',
+        level_2='WOMENS',
+        level_3='M_CLOTHING',
+        level_4='MC_JACKETS_COATS',
+        level_5='',
+        level_6='',
+        level_7='',
+        level_8='',
+        level_9='',
+        level_10='',
+        group_type_id='productGroup',
+        group_hierarchy_id='FASHION',
+        name='Mens Clothing Jackets and Coats',
+        level=4
+    ))
+    print("###### supplier_product #######")
+    print(sample)
+
+
+# sample_product_group()
