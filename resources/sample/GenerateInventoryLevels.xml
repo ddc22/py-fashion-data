@@ -1,0 +1,82 @@
+<generateInventoryLevels>
+	<!-- The locations to generate levels for -->
+	<locations>	
+		<location>0001</location>
+		<location>0003</location>
+		<location>0100</location>
+	</locations>
+	
+	<!-- The products to generate levels for -->
+	<products>
+		<product id="MB709SN"/>
+		<product id="DF517XM">
+			<variants>
+				<variant>-1</variant>
+				<variant>-2</variant>
+				<variant>-3</variant>
+				<variant>-4</variant>
+			</variants>
+		</product>
+		<product id="ID816BN">
+			<variants>
+				<variant>-1</variant>
+				<variant>-2</variant>
+				<variant>-3</variant>
+			</variants>
+		</product>
+		<product id="IDB81WH">
+			<variants>
+				<variant>-1</variant>
+				<variant>-2</variant>
+			</variants>
+		</product>
+		<product id="KD092JS">
+			<variants>
+				<variant>-1</variant>
+			</variants>
+		</product>
+		<product id="MB229XML">
+			<variants>
+				<variant>-1</variant>
+				<variant>-2</variant>
+				<variant>-3</variant>
+				<variant>-4</variant>
+				<variant>-5</variant>
+			</variants>
+			<excludedLocations>
+				<location>0001</location>
+				<location>0003</location>
+			</excludedLocations>
+		</product>
+		<product id="MB709SN">
+			<variants>
+				<variant>-1</variant>
+				<variant>-2</variant>
+				<variant>-3</variant>
+				<variant>-4</variant>
+			</variants>
+		</product>
+		<product id="NL117CN">
+			<variants>
+				<variant>-1</variant>
+			</variants>
+			<excludedLocations>
+				<location>0001</location>
+			</excludedLocations>
+		</product>
+		<product id="NL616HN">
+			<variants>
+				<variant>-1</variant>
+			</variants>
+		</product>
+		<product id="VV639JS">
+			<variants>
+				<variant>-10</variant>
+				<variant>-11</variant>
+				<variant>-12</variant>
+				<variant>-8</variant>
+				<variant>-9</variant>
+			</variants>
+		</product>
+	</products>
+</generateInventoryLevels>

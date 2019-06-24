@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+	<retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+	    <retail:categoryId>BennTrou</retail:categoryId>
+	    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+      groupHierarchyId="Benneton" groupTypeId="productGroup">Benneton.Trousers</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>womens</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>mens</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>mens_shirts</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>mens_shoes</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+  
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>girls</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">GIRLS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>boys</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">BOYS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>womens_bags</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_BAGS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>womens_tops</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_TOPS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>womens_shoes</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_SHOES</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>womens_dresses</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+  <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+    <retail:categoryId>womens_bags</retail:categoryId>
+    <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_BAGS</retail:productGroupKey>
+	</retail:productSearchCategoryMapping>
+
+</Batch> 

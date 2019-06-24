@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>DF517XM-1</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001DF517XM1-1</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>DF517XM-1</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001DF517XM1-1</retail:supplierProductId>
+</retail:supplierProductCost>
+
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-11</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-11</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-12</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-12</retail:supplierProductId>
+</retail:supplierProductCost>
+
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-13</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-13</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-21</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-21</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-22</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-22</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-23</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-23</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-31</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-31</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-32</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-32</retail:supplierProductId>
+</retail:supplierProductCost>
+
+<retail:supplierProductCost xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:cost>1200.0</retail:cost>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:lastUpdated>2015-07-09T19:44:35+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN-33</retail:productId>
+    <retail:startDate>2015-07-09T00:00:00+01:00</retail:startDate>
+    <retail:supplierId>0001</retail:supplierId>
+    <retail:supplierProductId>0001ID816BN-33</retail:supplierProductId>
+</retail:supplierProductCost>
+</Batch>

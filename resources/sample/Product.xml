@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>DF517XM</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Button Down Collar Western Sh</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">Check  Button Down Collar Western Shirt.</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Machine washable.Cotton.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/DF517XM-2.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">DF517XM-2</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:38:36.844+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHIRTS</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">INTERNAL</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>MENS_SHIRTS</retail:sizeRangeId>
+    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>ID816BN</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Ben Sherman Short Oxford</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Ben Sherman. As British as bangers and mash, this timeless Oxford shirt is as classic now as it was back in the swinging ?60s.</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Please be aware, Ben Sherman shirts are made to a more tailored fit, therefore please look at the chest size in inches before placing your order. You may need to order a size up compared to your usual size. Machine washable.78% Cotton, 22% Polyester.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/ID816BN-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">ID816BN-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:38:58.485+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHIRTS</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">BEN_SHERMAN</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>MENS_SHIRTS</retail:sizeRangeId>
+    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>KD092JS</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Nike Capri Trainer</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Nike. Combination leather and synthetic upper for durability and comfort. </core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Upper: leather and synthetic. Linings and sock: textile. Sole: other materials.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/KD092JS-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">KD092JS-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:39:21.656+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHOES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">NIKE</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>MENS_SHOES</retail:sizeRangeId>
+    <retail:colourRangeId>MENS_SHOES</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>MB229XM</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Crinkle Day Dress</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">Looking for a dress that?s stylish, keeps you comfortable and tackles those body hang ups? This crepe dress ticks all the boxes. While the vibrant shades and gorgeous style are all about spring/summer</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Length 36in/91cm. Sits on knee.Machine washable.Viscose.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/MB229XM.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">MB229XM-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:39:28.163+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">WOMENS_DRESSES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">INTERNAL</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>SPRING</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>WOMENS_DRESSES</retail:sizeRangeId>
+    <retail:colourRangeId>WOMENS_DRESSES</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>MB709SN</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Rose Print Tea Dress</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">Lightweight cotton tea dress. Back shirringfor improved fit.</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Length 39in/99cm. Sits on the knee.Machine washable.Cotton.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/MB709SN.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">MB709SN-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:39:59.098+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">WOMENS_DRESSES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">INTERNAL</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>SUMMER</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>WOMENS_DRESSES</retail:sizeRangeId>
+    <retail:colourRangeId>WOMENS_DRESSES</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>NL117CN</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Love Heart Hard Cased Clutch</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">Hard case clutch bag in a love heart shape with lace detail.</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo></retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/NL117CN-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">NL117CN-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:17.359+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">WOMENS_BAGS</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">INTERNAL</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>WOMENS_BAGS</retail:sizeRangeId>
+    <retail:colourRangeId>WOMENS_BAGS</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>NL616HN</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Envelope Handbag</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">PU white envelope handbag with detachable strap. Popper fastening, with zip fastening to each side to expand if desired. Animal print lining and inside pocket compartments.</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Wipe clean only.
+Outer: PU. Lining: Polyester.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/NL616HN-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">NL616HN-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:24.011+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">WOMENS_BAGS</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">INTERNAL</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>WOMENS_BAGS</retail:sizeRangeId>
+    <retail:colourRangeId>WOMENS_BAGS</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+
+
+
+
+<retail:styleColourSizeProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>VV639JS</retail:productId>
+    <retail:type>styleColourSizeProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Vans Canvas Shoes</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Vans</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Upper: textile. Linings and sock: textile. Sole: other materials.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/VV639JS-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">VV639JS-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:38.546+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHOES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">VANS</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:sizeRangeId>MENS_SHOES</retail:sizeRangeId>
+    <retail:colourRangeId>MENS_SHOES</retail:colourRangeId>
+</retail:styleColourSizeProduct>
+
+
+<retail:skuProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>VV639JS-10</retail:productId>
+    <retail:type>skuProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Vans Canvas Shoes</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Vans</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Length 39in/99cm. Sits on the knee.
+Machine washable.
+Cotton.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/VV639JS-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">VV639JS-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:41.774+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHOES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">VANS</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:colourId colourRangeId="MENS_SHOES">RED</retail:colourId>
+    <retail:sizeId sizeRangeId="MENS_SHOES">10</retail:sizeId>
+    <retail:styleId>VV639JS</retail:styleId>
+</retail:skuProduct>
+
+
+<retail:skuProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>VV639JS-11</retail:productId>
+    <retail:type>skuProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Vans Canvas Shoes</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Vans</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Length 39in/99cm. Sits on the knee.
+Machine washable.
+Cotton.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/VV639JS-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">VV639JS-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:45.216+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHOES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">VANS</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:colourId colourRangeId="MENS_SHOES">RED</retail:colourId>
+    <retail:sizeId sizeRangeId="MENS_SHOES">11</retail:sizeId>
+    <retail:styleId>VV639JS</retail:styleId>
+</retail:skuProduct>
+
+
+<retail:skuProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>VV639JS-12</retail:productId>
+    <retail:type>skuProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Vans Canvas Shoes</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Vans</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Length 39in/99cm. Sits on the knee.
+Machine washable.
+Cotton.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/VV639JS-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">VV639JS-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:48.479+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHOES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">VANS</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:colourId colourRangeId="MENS_SHOES">RED</retail:colourId>
+    <retail:sizeId sizeRangeId="MENS_SHOES">12</retail:sizeId>
+    <retail:styleId>VV639JS</retail:styleId>
+</retail:skuProduct>
+
+
+<retail:skuProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>VV639JS-8</retail:productId>
+    <retail:type>skuProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Vans Canvas Shoes</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Vans</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Length 39in/99cm. Sits on the knee.
+Machine washable.
+Cotton.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/VV639JS-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">VV639JS-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:52.110+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHOES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">VANS</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:colourId colourRangeId="MENS_SHOES">RED</retail:colourId>
+    <retail:sizeId sizeRangeId="MENS_SHOES">8</retail:sizeId>
+    <retail:styleId>VV639JS</retail:styleId>
+</retail:skuProduct>
+
+
+<retail:skuProduct xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns12="http://www.enactor.com/addressLookup/service" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>VV639JS-9</retail:productId>
+    <retail:type>skuProduct</retail:type>
+    <retail:productDescription>
+        <core:string variant="" language="en" country="GB">Vans Canvas Shoes</core:string>
+    </retail:productDescription>
+    <retail:productLongDescription>
+        <core:string variant="" language="en" country="GB">From Vans</core:string>
+    </retail:productLongDescription>
+    <retail:productLongDescriptionURL></retail:productLongDescriptionURL>
+    <retail:productInfo>Length 39in/99cm. Sits on the knee.
+Machine washable.
+Cotton.</retail:productInfo>
+    <retail:fasciaId></retail:fasciaId>
+    <retail:imageURL>image://PRODUCT/VV639JS-1.jpg</retail:imageURL>
+    <retail:imageFilenameId type="jpg" category="PRODUCT">VV639JS-1</retail:imageFilenameId>
+    <retail:productInformationURL></retail:productInformationURL>
+    <retail:posDetails>
+        <retail:productOptionSetDetails>
+            <retail:isTemplate>false</retail:isTemplate>
+        </retail:productOptionSetDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:posDetails>
+    <retail:isTemplate>false</retail:isTemplate>
+    <retail:status>LIVE</retail:status>
+    <retail:lastUpdated>2014-05-20T08:40:56.109+01:00</retail:lastUpdated>
+    <retail:taxGroupId>A</retail:taxGroupId>
+    <retail:exportDetails>
+        <retail:notForExport>false</retail:notForExport>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:exportDetails>
+    <retail:mmGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="mmGroup">MENS_SHOES</retail:mmGroupId>
+    <retail:brandId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="brand">VANS</retail:brandId>
+    <retail:rangeId></retail:rangeId>
+    <retail:inventoryDetails>
+        <retail:allowForLoan>false</retail:allowForLoan>
+        <retail:allowCustomerOrder>true</retail:allowCustomerOrder>
+        <retail:allowPurchaseOrder>true</retail:allowPurchaseOrder>
+        <retail:customerOrderOnly>false</retail:customerOrderOnly>
+        <retail:directToStoreDelivery>false</retail:directToStoreDelivery>
+        <retail:isStocked>true</retail:isStocked>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:inventoryDetails>
+    <retail:productDimensions>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:productDimensions>
+    <retail:warrantyDetails>
+        <retail:isTemplate>false</retail:isTemplate>
+    </retail:warrantyDetails>
+    <retail:seasonId>ALL</retail:seasonId>
+    <retail:standardCostPrice>0.0</retail:standardCostPrice>
+    <retail:standardMargin>0.0</retail:standardMargin>
+    <retail:colourId colourRangeId="MENS_SHOES">RED</retail:colourId>
+    <retail:sizeId sizeRangeId="MENS_SHOES">9</retail:sizeId>
+    <retail:styleId>VV639JS</retail:styleId>
+</retail:skuProduct>
+
+</Batch>

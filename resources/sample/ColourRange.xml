@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+
+<retail:colourRange xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:colourRangeId>BOYS_SHIRTS</retail:colourRangeId>
+    <retail:description>Boys Shirts</retail:description>
+    <retail:colourId colourRangeId="BOYS_SHIRTS">RED</retail:colourId>
+    <retail:colourId colourRangeId="BOYS_SHIRTS">BLUECHECK</retail:colourId>
+    <retail:lastUpdated>2015-01-02T16:41:11.513Z</retail:lastUpdated>
+</retail:colourRange>
+
+<retail:colourRange xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+    <retail:description>Mens Shirts</retail:description>
+    <retail:colourId colourRangeId="MENS_SHIRTS">RED</retail:colourId>
+    <retail:colourId colourRangeId="MENS_SHIRTS">GREEN</retail:colourId>
+    <retail:colourId colourRangeId="MENS_SHIRTS">BLUE</retail:colourId>
+    <retail:colourId colourRangeId="MENS_SHIRTS">BLACK</retail:colourId>
+    <retail:colourId colourRangeId="MENS_SHIRTS">WHITE</retail:colourId>
+    <retail:lastUpdated>2015-01-02T16:41:11.522Z</retail:lastUpdated>
+</retail:colourRange>
+
+
+<retail:colourRange xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:colourRangeId>MENS_SHOES</retail:colourRangeId>
+    <retail:description>Mens Shoes</retail:description>
+    <retail:colourId colourRangeId="MENS_SHOES">BLACK</retail:colourId>
+    <retail:colourId colourRangeId="MENS_SHOES">RED</retail:colourId>
+    <retail:lastUpdated>2015-01-02T16:41:11.524Z</retail:lastUpdated>
+</retail:colourRange>
+
+
+<retail:colourRange xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:colourRangeId>WOMENS_BAGS</retail:colourRangeId>
+    <retail:description>Women's Bags</retail:description>
+    <retail:colourId colourRangeId="WOMENS_BAGS">CREME</retail:colourId>
+    <retail:lastUpdated>2015-01-02T16:41:11.526Z</retail:lastUpdated>
+</retail:colourRange>
+
+
+<retail:colourRange xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:colourRangeId>WOMENS_DRESSES</retail:colourRangeId>
+    <retail:description>Women's Dresses</retail:description>
+    <retail:colourId colourRangeId="WOMENS_DRESSES">NAVY_BLUE</retail:colourId>
+    <retail:colourId colourRangeId="WOMENS_DRESSES">BLUE</retail:colourId>
+    <retail:lastUpdated>2015-01-02T16:41:11.528Z</retail:lastUpdated>
+</retail:colourRange>
+
+</Batch>

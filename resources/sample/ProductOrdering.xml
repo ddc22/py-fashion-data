@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+
+<retail:productOrdering xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>DF517XM-3</retail:productId>
+    <retail:permitsCollection>true</retail:permitsCollection>
+    <retail:permitsReservation>true</retail:permitsReservation>
+    <retail:permitsDelivery>true</retail:permitsDelivery>
+    <retail:preferredDeliveryMethod>
+        <retail:deliveryTypeId>Express</retail:deliveryTypeId>
+    </retail:preferredDeliveryMethod>
+    <retail:alternativeDeliveryMethods/>
+    <retail:returnDeliveryMethods/>
+</retail:productOrdering>
+
+
+<retail:productOrdering xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>DF517XM-4</retail:productId>
+    <retail:permitsCollection>true</retail:permitsCollection>
+    <retail:permitsReservation>true</retail:permitsReservation>
+    <retail:permitsDelivery>true</retail:permitsDelivery>
+    <retail:preferredDeliveryMethod>
+        <retail:deliveryTypeId>Express</retail:deliveryTypeId>
+    </retail:preferredDeliveryMethod>
+    <retail:alternativeDeliveryMethods/>
+    <retail:returnDeliveryMethods/>
+</retail:productOrdering>
+
+
+<retail:productOrdering xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>DF517XM-1</retail:productId>
+    <retail:permitsCollection>true</retail:permitsCollection>
+    <retail:permitsReservation>true</retail:permitsReservation>
+    <retail:permitsDelivery>true</retail:permitsDelivery>
+    <retail:preferredDeliveryMethod>
+        <retail:deliveryTypeId>Express</retail:deliveryTypeId>
+    </retail:preferredDeliveryMethod>
+    <retail:alternativeDeliveryMethods/>
+    <retail:returnDeliveryMethods/>
+</retail:productOrdering>
+
+
+<retail:productOrdering xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:productId>DF517XM-2</retail:productId>
+    <retail:permitsCollection>true</retail:permitsCollection>
+    <retail:permitsReservation>true</retail:permitsReservation>
+    <retail:permitsDelivery>true</retail:permitsDelivery>
+    <retail:preferredDeliveryMethod>
+        <retail:deliveryTypeId>Express</retail:deliveryTypeId>
+    </retail:preferredDeliveryMethod>
+    <retail:alternativeDeliveryMethods/>
+    <retail:returnDeliveryMethods/>
+</retail:productOrdering>
+
+</Batch>

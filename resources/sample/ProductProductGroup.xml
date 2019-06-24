@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="Benneton" groupTypeId="productGroup">Benneton.Trousers</retail:groupId>
+    <retail:productId>DF517XM-1</retail:productId>
+</retail:productProductGroup>
+
+<!-- *** MENS_SHIRTS *** -->
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>DF517XM-4</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>ID816BN</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>ID816BN-1</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>ID816BN-2</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>ID816BN-3</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>IDB81WH-1</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>IDB81WH-2</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>DF517XM</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>DF517XM-2</retail:productId>
+</retail:productProductGroup>
+
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHIRTS</retail:groupId>
+    <retail:productId>DF517XM-3</retail:productId>
+</retail:productProductGroup>
+
+<!-- *** MENS_SHOES *** -->
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>KD092JS</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>KD092JS-1</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>VV639JS</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>VV639JS-10</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>VV639JS-11</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>VV639JS-12</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>VV639JS-8</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">MENS_SHOES</retail:groupId>
+    <retail:productId>VV639JS-9</retail:productId>
+</retail:productProductGroup>
+
+<!-- *** WOMENS_DRESSES *** -->
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB229XM</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB229XML-1</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB229XML-2</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB229XML-3</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB229XML-4</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB229XML-5</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB709SN</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB709SN-1</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB709SN-2</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_DRESSES</retail:groupId>
+    <retail:productId>MB709SN-3</retail:productId>
+</retail:productProductGroup>
+
+<!-- *** WOMENS_BAGS *** -->
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_BAGS</retail:groupId>
+    <retail:productId>NL117CN</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_BAGS</retail:groupId>
+    <retail:productId>NL117CN-1</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_BAGS</retail:groupId>
+    <retail:productId>NL616HN</retail:productId>
+</retail:productProductGroup>
+
+<retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" 
+    groupHierarchyId="FASHION" groupTypeId="productGroup">WOMENS_BAGS</retail:groupId>
+    <retail:productId>NL616HN-1</retail:productId>
+</retail:productProductGroup>
+</Batch> 

@@ -1,0 +1,1062 @@
+<Batch xmlns:core="http://www.enactor.com/core" xmlns:customerService="http://www.enactor.com/service/CustomerInventoryManagementService" xmlns:service="http://www.enactor.com/service/InventoryManagementService" xmlns:orders="http://www.enactor.com/orders" xmlns:retail="http://www.enactor.com/retail" xmlns:exslt="http://exslt.org/common">
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>DF517XM-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>ID816BN-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>IDB81WH-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>KD092JS</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>KD092JS</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>KD092JS</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>KD092JS-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>KD092JS-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>KD092JS-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-5</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-5</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB229XML-5</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-2</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-3</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>MB709SN-4</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL117CN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL117CN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL117CN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL117CN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL616HN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL616HN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL616HN</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL616HN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL616HN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>NL616HN-1</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-10</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-10</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-10</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-11</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-11</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-11</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-12</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-12</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-12</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-8</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-8</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-8</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-9</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0001</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-9</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0003</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+	<retail:itemInventoryLevel>
+      <retail:inventoryItemId>VV639JS-9</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>0100</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>20000</retail:value>
+   </retail:itemInventoryLevel>
+	
+</Batch>

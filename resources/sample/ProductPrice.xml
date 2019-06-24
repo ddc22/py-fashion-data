@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>DF517XM</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>2595</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>DF517XM</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>2595</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>3742</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>ID816BN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>3742</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>KD092JS</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>6595</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>KD092JS</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>6595</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>MB229XM</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>2798</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>MB229XM</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>2798</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>MB709SN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>4260</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>MB709SN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>4260</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>NL117CN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>1795</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>NL117CN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>1795</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>NL616HN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>2200</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>NL616HN</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>2200</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>S1605260</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>11700</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>S1605260</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>11700</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>VV639JS</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+    <retail:currencyId>GBP</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>5995</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+
+<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:lastUpdated>2014-05-06T12:55:58+01:00</retail:lastUpdated>
+    <retail:productId>VV639JS</retail:productId>
+    <retail:locationId></retail:locationId>
+    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">FR</retail:priceGroupId>
+    <retail:currencyId>EUR</retail:currencyId>
+    <retail:startDate>2014-04-11T00:00:00.000+01:00</retail:startDate>
+    <retail:priceType>R</retail:priceType>
+    <retail:price>5995</retail:price>
+    <retail:pricingMethod></retail:pricingMethod>
+    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+    <retail:equivalentPrice>0</retail:equivalentPrice>
+</retail:productPrice>
+
+</Batch>
