@@ -1,0 +1,65 @@
+from source import config_data_map, templates
+import base64
+import os
+from utilsx import file_writer
+from os import path
+import logging
+
+
+image_category = 'PRODUCTS'
+
+workdir = os.getcwd()
+
+
+def get_base_64_image(image_id, extension):
+    img_path = workdir+"/resources/images/PRODUCTS/"+image_id+"."+extension
+    if path.exists(img_path):
+        with open(img_path, "rb") as image_file:
+            encoded_string = str(base64.b64encode(image_file.read()))
+        return encoded_string[2:-1]
+    else:
+        logging.warning(' The Image '+img_path+" Does not exist")
+        return ''
+
+
+def generate():
+    xml_collection = []
+
+    for category, products in config_data_map.product_data.items():
+        for product in products:
+            for color, images in product["color_image_map"].items():
+                product_name = product["name"]
+                image_description = color + " " + category + " " + product_name
+
+                xml_doc = templates.image.format(
+                    image_category=image_category,
+                    image_id=product["image_thumbnail_id"],
+                    description=image_description,
+                    file_name=product["image_thumbnail_id"] + 'jpg',
+                    extension='jpg',
+                    image_data=get_base_64_image(product["image_thumbnail_id"], "jpg"))
+                xml_collection.append(xml_doc)
+                print(category, color, product["image_thumbnail_id"])
+
+                for image in images:
+                    xml_doc = templates.image.format(
+                        image_category=image_category,
+                        image_id=image,
+                        description=image_description,
+                        file_name=image + 'jpg',
+                        extension='jpg',
+                        image_data=get_base_64_image(image, "jpg"))
+                    xml_collection.append(xml_doc)
+                    print(category, color, image)
+
+    print("""
+
+    **********************************
+
+        Generated images {count}
+
+    **********************************
+
+
+    """.format(count=str(len(xml_collection))))
+    file_writer.write_config("Image.xml", xml_collection)

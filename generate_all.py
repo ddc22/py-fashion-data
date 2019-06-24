@@ -2,7 +2,7 @@ import shutil
 import os
 import sys
 import json
-from utils import file_writer
+from utilsx import file_writer
 import logging
 
 from source import templates
@@ -12,6 +12,8 @@ from generators.product_generators import generate_products
 from generators.product_generators import generate_supplier_product
 from generators.product_generators import generate_product_media
 from generators.product_generators import generate_product_price
+from generators.product_generators import generate_product_product_group
+from generators.product_generators import generate_images
 
 from generators.group_generators import generate_product_group
 from generators.group_generators import generate_brand_group
@@ -29,5 +31,9 @@ generate_supplier_product.generate(products_array)
 generate_product_price.generate()
 generate_product_group.generate()
 generate_brand_group.generate()
+
+generate_product_product_group.generate()
+generate_images.generate()
+
 # print(json.dumps(product_image_map, indent=4))
 # json.dumps(products_array)

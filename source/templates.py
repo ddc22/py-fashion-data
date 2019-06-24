@@ -1,4 +1,4 @@
-from utils import util
+from utilsx import util
 SafeDict = util.SafeDict
 
 sku_product = """
@@ -228,24 +228,24 @@ def sample_supplier_product_cost():
         product_id='ID816BN',
         supplier_product_id='ID816BN-SP1'
     ))
-    print("###### supplier_product #######")
+    print("###### supplier_product_cost #######")
     print(sample)
 # sample_supplier_product_cost()
 
 
 product_price = """
-<retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:productId>{product_id}</retail:productId>
-    <retail:locationId></retail:locationId>
-    <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
-    <retail:currencyId>{currency_id}</retail:currencyId>
-    <retail:priceType>{price_type}</retail:priceType>
-    <retail:price>{price}</retail:price>
-    <retail:pricingMethod></retail:pricingMethod>
-    <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
-    <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
-    <retail:equivalentPrice>0</retail:equivalentPrice>
-</retail:productPrice>
+    <retail:productPrice xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns6="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:productId>{product_id}</retail:productId>
+        <retail:locationId></retail:locationId>
+        <retail:priceGroupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="ALL" groupTypeId="priceGroup">UK</retail:priceGroupId>
+        <retail:currencyId>{currency_id}</retail:currencyId>
+        <retail:priceType>{price_type}</retail:priceType>
+        <retail:price>{price}</retail:price>
+        <retail:pricingMethod></retail:pricingMethod>
+        <retail:equivalentMeasureSystemId></retail:equivalentMeasureSystemId>
+        <retail:equivalentUnitOfMeasureId></retail:equivalentUnitOfMeasureId>
+        <retail:equivalentPrice>0</retail:equivalentPrice>
+    </retail:productPrice>
 """
 
 
@@ -256,7 +256,7 @@ def sample_product_price():
         currency_id='GBP',
         price_type='R'
     ))
-    print("###### supplier_product #######")
+    print("###### product_price #######")
     print(sample)
 
 
@@ -264,53 +264,53 @@ def sample_product_price():
 
 
 group = """
-<retail:productGroup xmlns:core="http://www.enactor.com/core" 
-    xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
-    xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
-    xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
-    xmlns:ns11="http://www.enactor.com/retail/storedRetailTransaction/service" 
-    xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
-    xmlns:ns4="http://www.enactor.com/crm" 
-    xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
-    xmlns:ns8="http://www.enactor.com/addressLookup/service" 
-    xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" 
-    xmlns:retail="http://www.enactor.com/retail" 
-    xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
-    xmlns:tools="http://www.enactor.com/tools" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:groupId>{group_id}</retail:groupId>
-    <retail:groupTypeId>{group_type_id}</retail:groupTypeId>
-    <retail:groupHierarchyId>{group_hierarchy_id}</retail:groupHierarchyId>
-    <retail:level>{level}</retail:level>
-    <retail:level10GroupId>{level_10}</retail:level10GroupId>
-    <retail:level1GroupId>{level_1}</retail:level1GroupId>
-    <retail:level2GroupId>{level_2}</retail:level2GroupId>
-    <retail:level3GroupId>{level_3}</retail:level3GroupId>
-    <retail:level4GroupId>{level_4}</retail:level4GroupId>
-    <retail:level5GroupId>{level_5}</retail:level5GroupId>
-    <retail:level6GroupId>{level_6}</retail:level6GroupId>
-    <retail:level7GroupId>{level_7}</retail:level7GroupId>
-    <retail:level8GroupId>{level_8}</retail:level8GroupId>
-    <retail:level9GroupId>{level_9}</retail:level9GroupId>
-    <retail:name>{name}</retail:name>
-    <retail:variantGroupId>All</retail:variantGroupId>
-    <retail:variantGroupTypeId>region</retail:variantGroupTypeId>
-    <retail:variantGroupHierarchyId>All</retail:variantGroupHierarchyId>
-    <retail:variantLevel>1</retail:variantLevel>
-    <retail:allowPriceEntry>false</retail:allowPriceEntry>
-    <retail:concession>false</retail:concession>
-    <retail:forceMessageAcknowledgement>false</retail:forceMessageAcknowledgement>
-    <retail:operatorMessage/>
-    <retail:quantityEntry>false</retail:quantityEntry>
-    <retail:receiptMessage/>
-    <retail:exportWarningMessage></retail:exportWarningMessage>
-    <retail:fasciaId groupTypeId="fascia"></retail:fasciaId>
-</retail:productGroup>
+    <retail:productGroup xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns4="http://www.enactor.com/crm" 
+        xmlns:ns7="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:groupId>{group_id}</retail:groupId>
+        <retail:groupTypeId>{group_type_id}</retail:groupTypeId>
+        <retail:groupHierarchyId>{group_hierarchy_id}</retail:groupHierarchyId>
+        <retail:level>{level}</retail:level>
+        <retail:level10GroupId>{level_10}</retail:level10GroupId>
+        <retail:level1GroupId>{level_1}</retail:level1GroupId>
+        <retail:level2GroupId>{level_2}</retail:level2GroupId>
+        <retail:level3GroupId>{level_3}</retail:level3GroupId>
+        <retail:level4GroupId>{level_4}</retail:level4GroupId>
+        <retail:level5GroupId>{level_5}</retail:level5GroupId>
+        <retail:level6GroupId>{level_6}</retail:level6GroupId>
+        <retail:level7GroupId>{level_7}</retail:level7GroupId>
+        <retail:level8GroupId>{level_8}</retail:level8GroupId>
+        <retail:level9GroupId>{level_9}</retail:level9GroupId>
+        <retail:name>{name}</retail:name>
+        <retail:variantGroupId>All</retail:variantGroupId>
+        <retail:variantGroupTypeId>region</retail:variantGroupTypeId>
+        <retail:variantGroupHierarchyId>All</retail:variantGroupHierarchyId>
+        <retail:variantLevel>1</retail:variantLevel>
+        <retail:allowPriceEntry>false</retail:allowPriceEntry>
+        <retail:concession>false</retail:concession>
+        <retail:forceMessageAcknowledgement>false</retail:forceMessageAcknowledgement>
+        <retail:operatorMessage/>
+        <retail:quantityEntry>false</retail:quantityEntry>
+        <retail:receiptMessage/>
+        <retail:exportWarningMessage></retail:exportWarningMessage>
+        <retail:fasciaId groupTypeId="fascia"></retail:fasciaId>
+    </retail:productGroup>
 """
 
 
 def sample_group():
-    sample = product_group.format_map(SafeDict(
+    sample = group.format_map(SafeDict(
         group_id='MC_JACKETS_COATS',
         level_1='FASHION',
         level_2='WOMENS',
@@ -327,8 +327,70 @@ def sample_group():
         name='Mens Clothing Jackets and Coats',
         level=4
     ))
-    print("###### supplier_product #######")
+    print("###### group #######")
     print(sample)
 
 
 # sample_product_group()
+
+product_product_group = """
+    <retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="productGroup">
+            {group_id}
+        </retail:groupId>
+        <retail:productId>{product_id}</retail:productId>
+    </retail:productProductGroup>    
+"""
+
+
+def sample_product_product_group():
+    sample = product_product_group.format_map(SafeDict(
+        group_id='MC_JACKETS_COATS',
+        product_id='FPCS7PX'
+    ))
+    print("###### product_product_group #######")
+    print(sample)
+
+
+image = """
+    <retail:image xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns12="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns5="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns7="http://www.enactor.com/addressLookup/service" xmlns:ns8="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:category>{image_category}</retail:category>
+        <retail:imageId>{image_id}</retail:imageId>
+        <retail:description>{description}</retail:description>
+        <retail:originalFilename>{file_name}</retail:originalFilename>
+        <retail:type>{extension}</retail:type>
+        <retail:data>{image_data}</retail:data>
+    </retail:image> 
+"""
+
+
+def sample_image():
+    sample = image.format_map(SafeDict(
+        image_category='PRODUCTS',
+        image_id='FPCS7PX',
+        description='FPCS7PX',
+        file_name='FPCS7PX',
+        extension='jpg',
+        image_data='dsfasdfa vszdvsd'
+    ))
+    print("###### product_product_group #######")
+    print(sample)
+
+
+product_search_category_mapping = """
+    <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
+        <retail:categoryId>{catrgory_id}</retail:categoryId>
+        <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="productGroup">
+            {product_group_id}
+        </retail:productGroupKey>
+    </retail:productSearchCategoryMapping>
+"""
+
+
+def sample_product_search_category_mapping():
+    sample = product_search_category_mapping.format_map(SafeDict(
+        catrgory_id='WOMENS_BAGS'.lower(),
+        product_group_id='WOMENS_BAGS'
+    ))
+    print("###### product_product_group #######")
+    print(sample)

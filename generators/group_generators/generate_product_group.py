@@ -1,7 +1,7 @@
 from source import templates
 from source import cat_hierarchy
 
-from utils import file_writer
+from utilsx import file_writer
 
 level_1 = "FASHION"
 

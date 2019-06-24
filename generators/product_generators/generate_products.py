@@ -4,7 +4,8 @@ from source import config_data_map
 from source import templates
 
 import logging
-from utils import file_writer
+from utilsx import file_writer
+
 generated_data = {
     "products_array": [],
     "product_image_map": {

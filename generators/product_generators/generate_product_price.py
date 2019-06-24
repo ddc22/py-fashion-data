@@ -1,6 +1,6 @@
 
 import json
-from utils import file_writer
+from utilsx import file_writer
 from source import templates
 from source import config_data_map
 

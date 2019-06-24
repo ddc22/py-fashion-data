@@ -1,0 +1,5 @@
+from source import templates
+from generators.group_generators import generate_product_group_category_mapping
+
+# templates.sample_product_search_category_mapping()
+generate_product_group_category_mapping.generate()
