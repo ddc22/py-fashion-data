@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Batch>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>2.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>DF517XM-4</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>
+    <retail:productId>DF517XM-4</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>DF517XM-4</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>       
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_BEN_SHERMAN</retail:stringValue>
+    </retail:value> 
+    <retail:productId>ID816BN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>ID816BN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>1.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>ID816BN</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>       
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_BEN_SHERMAN</retail:stringValue>
+    </retail:value>     
+    <retail:productId>ID816BN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>ID816BN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>1.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>ID816BN-1</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>       
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_BEN_SHERMAN</retail:stringValue>
+    </retail:value>     
+    <retail:productId>ID816BN-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>ID816BN-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>1.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>ID816BN-2</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>       
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_BEN_SHERMAN</retail:stringValue>
+    </retail:value>     
+    <retail:productId>ID816BN-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>ID816BN-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>5.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>ID816BN-3</retail:productId>
+</retail:productAttribute>
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>       
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_BEN_SHERMAN</retail:stringValue>
+    </retail:value>        
+    <retail:productId>IDB81WH-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>IDB81WH-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>IDB81WH-1</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>       
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_BEN_SHERMAN</retail:stringValue>
+    </retail:value>        
+    <retail:productId>IDB81WH-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>
+    <retail:productId>IDB81WH-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>IDB81WH-2</retail:productId>
+</retail:productAttribute>
+
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_NIKE</retail:stringValue>
+    </retail:value>          
+    <retail:productId>KD092JS</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>KD092JS</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>KD092JS</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_NIKE</retail:stringValue>
+    </retail:value>          
+    <retail:productId>KD092JS-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>KD092JS-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>KD092JS-1</retail:productId>
+</retail:productAttribute>
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB229XM</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB229XM</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB229XM</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB229XML-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB229XML-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB229XML-1</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB229XML-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB229XML-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB229XML-2</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB229XML-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB229XML-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB229XML-3</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB229XML-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB229XML-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+     <retail:productId>MB229XML-3</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB229XML-4</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB229XML-4</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB229XML-4</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB229XML-5</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB229XML-5</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB229XML-5</retail:productId>
+</retail:productAttribute>
+
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB709SN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB709SN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB709SN</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB709SN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB709SN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB709SN-1</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB709SN-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB709SN-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB709SN-2</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB709SN-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB709SN-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB709SN-3</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>MB709SN-4</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>MB709SN-4</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>4.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>MB709SN-4</retail:productId>
+</retail:productAttribute>
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>NL117CN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>NL117CN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>5.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>NL117CN</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>NL117CN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>NL117CN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>5.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>NL117CN-1</retail:productId>
+</retail:productAttribute>
+
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>NL616HN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>NL616HN</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>2.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>NL616HN</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>          
+    <retail:productId>NL616HN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>NL616HN-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>2.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>NL616HN-1</retail:productId>
+</retail:productAttribute>
+
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_VANS</retail:stringValue>
+    </retail:value>          
+    <retail:productId>VV639JS</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>VV639JS</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>2.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>VV639JS</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_VANS</retail:stringValue>
+    </retail:value>          
+    <retail:productId>VV639JS-10</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>VV639JS-10</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>2.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>VV639JS-10</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_VANS</retail:stringValue>
+    </retail:value>          
+    <retail:productId>VV639JS-11</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>VV639JS-11</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>2.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>VV639JS-11</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_VANS</retail:stringValue>
+    </retail:value>          
+    <retail:productId>VV639JS-12</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>VV639JS-12</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>2.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>VV639JS-12</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_VANS</retail:stringValue>
+    </retail:value>          
+    <retail:productId>VV639JS-8</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>VV639JS-8</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>    
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>VV639JS-8</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_VANS</retail:stringValue>
+    </retail:value>          
+    <retail:productId>VV639JS-9</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>VV639JS-9</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>VV639JS-9</retail:productId>
+</retail:productAttribute>
+
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>
+    <retail:productId>DF517XM</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType> 
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>       
+    <retail:productId>DF517XM</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>
+    <retail:productId>DF517XM</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>
+    <retail:productId>DF517XM-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>        
+    <retail:productId>DF517XM-1</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>DF517XM-1</retail:productId>
+</retail:productAttribute>
+
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>    
+    <retail:value id="stars_option_path">
+        <retail:floatValue>3.0</retail:floatValue>
+    </retail:value>    
+    <retail:productId>DF517XM-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>        
+    <retail:productId>DF517XM-2</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>DF517XM-2</retail:productId>
+</retail:productAttribute>
+
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>stars_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>FLOAT</retail:dataType>
+    <retail:productId>DF517XM-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>brand_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>
+    <retail:value id="brand_option_path">
+        <retail:stringValue>Brand_INTERNAL</retail:stringValue>
+    </retail:value>
+    <retail:productId>DF517XM-3</retail:productId>
+</retail:productAttribute>
+<retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:optionPathId>pattern_option_path</retail:optionPathId>
+    <retail:optionSetId type="productAttributeOptionSet" optionSetId="pattern_option_set">
+        <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+    </retail:optionSetId>
+    <retail:dataType>STRING</retail:dataType>    
+    <retail:productId>DF517XM-3</retail:productId>
+</retail:productAttribute>
+</Batch> 

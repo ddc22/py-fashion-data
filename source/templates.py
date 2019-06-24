@@ -394,3 +394,100 @@ def sample_product_search_category_mapping():
     ))
     print("###### product_product_group #######")
     print(sample)
+
+
+product_attribute_stars = """
+    <retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:optionPathId>stars_option_path</retail:optionPathId>
+        <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_path">
+            <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+        </retail:optionSetId>
+        <retail:dataType>FLOAT</retail:dataType>    
+        <retail:value id="stars_option_path">
+            <retail:floatValue>{value}</retail:floatValue>
+        </retail:value>    
+        <retail:productId>{product_id}</retail:productId>
+    </retail:productAttribute>
+"""
+
+product_attribute_brand = """
+    <retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:optionPathId>brand_option_path</retail:optionPathId>
+        <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
+            <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
+        </retail:optionSetId>
+        <retail:dataType>STRING</retail:dataType>    
+        <retail:value id="brand_option_path">
+            <retail:floatValue>{value}</retail:floatValue>
+        </retail:value>
+        <retail:productId>{product_id}</retail:productId>
+    </retail:productAttribute>
+"""
+
+
+def sample_product_attribute_stars():
+    sample = product_attribute_stars.format_map(SafeDict(
+        value=4.2,
+        product_id='FPCS7PX'
+    ))
+    print("###### product attribute  stars#######")
+    print(sample)
+
+
+def sample_product_attribute_brand():
+    sample = product_attribute_brand.format_map(SafeDict(
+        value="Nike",
+        product_id='FPCS7PX'
+    ))
+    print("###### product attribut brand #######")
+    print(sample)
+
+
+colour_range_start = """
+    <retail:colourRange xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourRangeId>{range_id}</retail:colourRangeId>
+        <retail:description>{description}</retail:description>
+"""
+colour_range_colours = """        <retail:colourId colourRangeId="{range_id}">{colour}</retail:colourId>
+"""
+colour_range_end = "    </retail:colourRange>"
+
+
+def sample_colour_range():
+    sample = colour_range_start.format_map(SafeDict(
+        range_id="MC_JACKETS_COATS",
+        description='FPCS7PX'
+    ))
+    for colour in ["BLACK", "WHITE", "RED"]:
+        sample = sample + colour_range_colours.format_map(SafeDict(
+            range_id="MC_JACKETS_COATS",
+            colour=colour
+        ))
+    sample = sample + colour_range_end
+    print("###### product attribut brand #######")
+    print(sample)
+
+
+colour = """
+    <retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>{color_id}</retail:colourId>
+        <retail:colourRangeId>{category_id}</retail:colourRangeId>
+        <retail:description>{color_description}</retail:description>
+    </retail:colour>
+"""
+
+
+def sample_colour():
+    sample = colour.format_map(SafeDict(
+        color_id="BLUE",
+        category_id='MC_JACKETS_COATS',
+        color_description='Blue',
+    ))
+    for colour in ["BLACK", "WHITE", "RED"]:
+        sample = sample + colour_range_colours.format_map(SafeDict(
+            range_id="MC_JACKETS_COATS",
+            colour=colour
+        ))
+    sample = sample + colour_range_end
+    print("###### product attribut brand #######")
+    print(sample)

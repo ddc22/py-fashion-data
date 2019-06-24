@@ -1,97 +1,252 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Batch>
 
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>BLACK</retail:colourId>
-    <retail:colourRangeId>MENS_SHOES</retail:colourRangeId>
-    <retail:description>Black</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.643Z</retail:lastUpdated>
-</retail:colour>
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>BLACK</retail:colourId>
+        <retail:colourRangeId>MENS_SHOES</retail:colourRangeId>
+        <retail:description>Black</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.643Z</retail:lastUpdated>
+    </retail:colour>
 
 
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>BLACK</retail:colourId>
-    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
-    <retail:description>Black</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.635Z</retail:lastUpdated>
-</retail:colour>
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>BLACK</retail:colourId>
+        <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+        <retail:description>Black</retail:description>
+    </retail:colour>
 
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>WHITE</retail:colourId>
-    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
-    <retail:description>White</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.635Z</retail:lastUpdated>
-</retail:colour>
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>WHITE</retail:colourId>
+        <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+        <retail:description>White</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.635Z</retail:lastUpdated>
+    </retail:colour>
 
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>BLUE</retail:colourId>
-    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
-    <retail:description>Blue</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.648Z</retail:lastUpdated>
-</retail:colour>
-
-
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>BLUECHECK</retail:colourId>
-    <retail:colourRangeId>BOYS_SHIRTS</retail:colourRangeId>
-    <retail:description>BLUE</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.646Z</retail:lastUpdated>
-</retail:colour>
-
-
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>BLUE</retail:colourId>
-    <retail:colourRangeId>WOMENS_DRESSES</retail:colourRangeId>
-    <retail:description>Blue</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.645Z</retail:lastUpdated>
-</retail:colour>
-
-
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>CREME</retail:colourId>
-    <retail:colourRangeId>WOMENS_BAGS</retail:colourRangeId>
-    <retail:description>Creme</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.651Z</retail:lastUpdated>
-</retail:colour>
-
-
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>GREEN</retail:colourId>
-    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
-    <retail:description>Green</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.654Z</retail:lastUpdated>
-</retail:colour>
-
-
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>NAVY_BLUE</retail:colourId>
-    <retail:colourRangeId>WOMENS_DRESSES</retail:colourRangeId>
-    <retail:description>Navy Blue</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.655Z</retail:lastUpdated>
-</retail:colour>
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>BLUE</retail:colourId>
+        <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+        <retail:description>Blue</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.648Z</retail:lastUpdated>
+    </retail:colour>
 
 
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>RED</retail:colourId>
-    <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
-    <retail:description>Red</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.661Z</retail:lastUpdated>
-</retail:colour>
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>BLUECHECK</retail:colourId>
+        <retail:colourRangeId>BOYS_SHIRTS</retail:colourRangeId>
+        <retail:description>BLUE</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.646Z</retail:lastUpdated>
+    </retail:colour>
 
 
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>RED</retail:colourId>
-    <retail:colourRangeId>MENS_SHOES</retail:colourRangeId>
-    <retail:description>Red</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.659Z</retail:lastUpdated>
-</retail:colour>
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>BLUE</retail:colourId>
+        <retail:colourRangeId>WOMENS_DRESSES</retail:colourRangeId>
+        <retail:description>Blue</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.645Z</retail:lastUpdated>
+    </retail:colour>
 
 
-<retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:colourId>RED</retail:colourId>
-    <retail:colourRangeId>BOYS_SHIRTS</retail:colourRangeId>
-    <retail:description>Red</retail:description>
-    <retail:lastUpdated>2015-01-02T16:41:05.657Z</retail:lastUpdated>
-</retail:colour>
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>CREME</retail:colourId>
+        <retail:colourRangeId>WOMENS_BAGS</retail:colourRangeId>
+        <retail:description>Creme</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.651Z</retail:lastUpdated>
+    </retail:colour>
+
+
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>GREEN</retail:colourId>
+        <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+        <retail:description>Green</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.654Z</retail:lastUpdated>
+    </retail:colour>
+
+
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>NAVY_BLUE</retail:colourId>
+        <retail:colourRangeId>WOMENS_DRESSES</retail:colourRangeId>
+        <retail:description>Navy Blue</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.655Z</retail:lastUpdated>
+    </retail:colour>
+
+
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>RED</retail:colourId>
+        <retail:colourRangeId>MENS_SHIRTS</retail:colourRangeId>
+        <retail:description>Red</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.661Z</retail:lastUpdated>
+    </retail:colour>
+
+
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>RED</retail:colourId>
+        <retail:colourRangeId>MENS_SHOES</retail:colourRangeId>
+        <retail:description>Red</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.659Z</retail:lastUpdated>
+    </retail:colour>
+
+
+    <retail:colour xmlns:core="http://www.enactor.com/core" 
+        xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" 
+        xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" 
+        xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" 
+        xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" 
+        xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" 
+        xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" 
+        xmlns:ns6="http://www.enactor.com/crm" 
+        xmlns:ns8="http://www.enactor.com/addressLookup/service" 
+        xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" 
+        xmlns:retail="http://www.enactor.com/retail" 
+        xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" 
+        xmlns:tools="http://www.enactor.com/tools" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:colourId>RED</retail:colourId>
+        <retail:colourRangeId>BOYS_SHIRTS</retail:colourRangeId>
+        <retail:description>Red</retail:description>
+        <retail:lastUpdated>2015-01-02T16:41:05.657Z</retail:lastUpdated>
+    </retail:colour>
 
 </Batch>
