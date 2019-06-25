@@ -65,7 +65,7 @@ sku_product = """
         <retail:seasonId>ALL</retail:seasonId>
         <retail:standardCostPrice>0.0</retail:standardCostPrice>
         <retail:standardMargin>0.0</retail:standardMargin>
-        <retail:colourId colourRangeId="{category}">{color}</retail:colourId>
+        <retail:colourId colourRangeId="{category}">{colour}</retail:colourId>
         <retail:sizeId sizeRangeId="{category}">{size}</retail:sizeId>
         <retail:styleId>{product_id}</retail:styleId>
     </retail:skuProduct>
@@ -81,7 +81,7 @@ def sku_product_sample():
         image_id='DF517XM',
         category='MENS_SHIRTS',
         brand='INTERNAL',
-        color='RED',
+        colour='RED',
         size='XL',
         product_id='DF517XM'
     ))
@@ -158,7 +158,7 @@ def sample_product():
         category='MENS_SHIRTS',
         brand='INTERNAL',
     ))
-    print("###### stylecolorsize_product #######")
+    print("###### stylecoloursize_product #######")
     print(sample)
 # sample_product()
 
@@ -181,7 +181,7 @@ def sample_product_media():
         product_id='DF517XM',
         image_id='DF517XM'
     ))
-    print("###### stylecolorsize_product #######")
+    print("###### stylecoloursize_product #######")
     print(sample)
 # sample_product_media()
 
@@ -335,9 +335,7 @@ def sample_group():
 
 product_product_group = """
     <retail:productProductGroup xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns14="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns5="http://www.enactor.com/crm" xmlns:ns7="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns9="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="productGroup">
-            {group_id}
-        </retail:groupId>
+        <retail:groupId variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="productGroup">{group_id}</retail:groupId>
         <retail:productId>{product_id}</retail:productId>
     </retail:productProductGroup>    
 """
@@ -380,9 +378,7 @@ def sample_image():
 product_search_category_mapping = """
     <retail:productSearchCategoryMapping  xmlns:retail="http://www.enactor.com/retail" >
         <retail:categoryId>{catrgory_id}</retail:categoryId>
-        <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="productGroup">
-            {product_group_id}
-        </retail:productGroupKey>
+        <retail:productGroupKey variantGroupHierarchyId="All" variantGroupId="All" variantGroupTypeId="region" groupHierarchyId="FASHION" groupTypeId="productGroup">{product_group_id}</retail:productGroupKey>
     </retail:productSearchCategoryMapping>
 """
 
@@ -470,18 +466,18 @@ def sample_colour_range():
 
 colour = """
     <retail:colour xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <retail:colourId>{color_id}</retail:colourId>
+        <retail:colourId>{colour_id}</retail:colourId>
         <retail:colourRangeId>{category_id}</retail:colourRangeId>
-        <retail:description>{color_description}</retail:description>
+        <retail:description>{colour_description}</retail:description>
     </retail:colour>
 """
 
 
 def sample_colour():
     sample = colour.format_map(SafeDict(
-        color_id="BLUE",
+        colour_id="BLUE",
         category_id='MC_JACKETS_COATS',
-        color_description='Blue',
+        colour_description='Blue',
     ))
     for colour in ["BLACK", "WHITE", "RED"]:
         sample = sample + colour_range_colours.format_map(SafeDict(

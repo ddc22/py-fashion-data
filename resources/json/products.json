@@ -8,8 +8,8 @@
       "image_id": "1_FPCS7PX",
       "image_thumbnail_id": "1_FPCS7PX_T",
       "brand": "DSQUARED2",
-      "price":"495.00",
-      "color_image_map": {
+      "price": "495.00",
+      "colour_image_map": {
         "BLUE": [
           "1_FPCS7PX",
           "2_FPCS7PX",
@@ -27,21 +27,12 @@
       "image_id": "6_3V3A8EJ",
       "image_thumbnail_id": "6_3V3A8EJ_T",
       "brand": "STONE ISLAND",
-      "price":"295.00",
-      "color_image_map": {
-        "AVIO": [
-          "6_3V3A8EJ",
-          "7_3V3A8EJ"
-        ],
-        "NAVY": [
-          "8_3V3A8EJ"
-        ],
-        "LEMONE": [
-          "9_3V3A8EJ"
-        ],
-        "MOSTO": [
-          "10_3V3A8EJ"
-        ]
+      "price": "295.00",
+      "colour_image_map": {
+        "AVIO": ["6_3V3A8EJ", "7_3V3A8EJ"],
+        "NAVY": ["8_3V3A8EJ"],
+        "LEMONE": ["9_3V3A8EJ"],
+        "MOSTO": ["10_3V3A8EJ"]
       }
     },
     {
@@ -52,12 +43,9 @@
       "image_id": "11_ZIFTSBH",
       "image_thumbnail_id": "11_ZIFTSBH_T",
       "brand": "PALM ANGELS",
-      "price":"339.00",
-      "color_image_map": {
-        "MULTI": [
-          "11_ZIFTSBH",
-          "12_ZIFTSBH"
-        ]
+      "price": "339.00",
+      "colour_image_map": {
+        "MULTI": ["11_ZIFTSBH", "12_ZIFTSBH"]
       }
     },
     {
@@ -68,12 +56,9 @@
       "image_id": "13_ATNYUDT",
       "image_thumbnail_id": "13_ATNYUDT_T",
       "brand": "JW ANDERSON",
-      "price":"659.00",
-      "color_image_map": {
-        "KHAKI": [
-          "13_ATNYUDT",
-          "14_ATNYUDT"
-        ]
+      "price": "659.00",
+      "colour_image_map": {
+        "KHAKI": ["13_ATNYUDT", "14_ATNYUDT"]
       }
     },
     {
@@ -84,16 +69,10 @@
       "image_id": "15_PK8EI8E",
       "image_thumbnail_id": "15_PK8EI8E_T",
       "brand": "MONCLER",
-      "price":"875.00",
-      "color_image_map": {
-        "NAVY": [
-          "15_PK8EI8E",
-          "16_PK8EI8E"
-        ],
-        "BROWN": [
-          "17_PK8EI8E",
-          "18_PK8EI8E"
-        ]
+      "price": "875.00",
+      "colour_image_map": {
+        "NAVY": ["15_PK8EI8E", "16_PK8EI8E"],
+        "BROWN": ["17_PK8EI8E", "18_PK8EI8E"]
       }
     },
     {
@@ -104,16 +83,10 @@
       "image_id": "19_HIIX22T",
       "image_thumbnail_id": "19_HIIX22T_T",
       "brand": "STONE ISLAND",
-      "price":"295.00",
-      "color_image_map": {
-        "STUCCO": [
-          "19_HIIX22T",
-          "20_HIIX22T"
-        ],
-        "SALVIA": [
-          "21_HIIX22T",
-          "22_HIIX22T"
-        ]
+      "price": "295.00",
+      "colour_image_map": {
+        "STUCCO": ["19_HIIX22T", "20_HIIX22T"],
+        "SALVIA": ["21_HIIX22T", "22_HIIX22T"]
       }
     },
     {
@@ -124,12 +97,9 @@
       "image_id": "23_PFBGCGM",
       "image_thumbnail_id": "23_PFBGCGM_T",
       "brand": "GUCCI",
-      "price":"1160.00",
-      "color_image_map": {
-        "CASP/BEIGE": [
-          "23_PFBGCGM",
-          "24_PFBGCGM"
-        ]
+      "price": "1160.00",
+      "colour_image_map": {
+        "CASP/BEIGE": ["23_PFBGCGM", "24_PFBGCGM"]
       }
     },
     {
@@ -140,12 +110,9 @@
       "image_id": "25_5RG0MF2",
       "image_thumbnail_id": "25_5RG0MF2_T",
       "brand": "STONE ISLAND",
-      "price":"350.00",
-      "color_image_map": {
-        "SAGE": [
-          "25_5RG0MF2",
-          "26_5RG0MF2"
-        ]
+      "price": "350.00",
+      "colour_image_map": {
+        "SAGE": ["25_5RG0MF2", "26_5RG0MF2"]
       }
     },
     {
@@ -156,12 +123,9 @@
       "image_id": "27_BR2OSZX",
       "image_thumbnail_id": "27_BR2OSZX_T",
       "brand": "MONCLER",
-      "price":"419.00",
-      "color_image_map": {
-        "BLACK": [
-          "27_BR2OSZX",
-          "28_BR2OSZX"
-        ]
+      "price": "419.00",
+      "colour_image_map": {
+        "BLACK": ["27_BR2OSZX", "28_BR2OSZX"]
       }
     },
     {
@@ -172,8 +136,8 @@
       "image_id": "29_HB05Z4U",
       "image_thumbnail_id": "29_HB05Z4U_T",
       "brand": "Polo Ralph Lauren",
-      "price":"155.00",
-      "color_image_map": {
+      "price": "155.00",
+      "colour_image_map": {
         "FRENCH NAVY": [
           "29_HB05Z4U",
           "30_HB05Z4U",
@@ -184,7 +148,7 @@
       }
     }
   ],
-  
+
   "MC_SHIRTS": [
     {
       "product_id": "ECY3U8K",
@@ -194,14 +158,11 @@
       "image_id": "1_ECY3U8K",
       "image_thumbnail_id": "1_ECY3U8K_T",
       "brand": "GUCCI",
-      "price":"490.00",
-      "color_image_map": {
-        "BLUE/WHITE": [
-          "1_ECY3U8K",
-          "2_ECY3U8K"
-        ]
+      "price": "490.00",
+      "colour_image_map": {
+        "BLUE/WHITE": ["1_ECY3U8K", "2_ECY3U8K"]
       }
-    }, 
+    },
     {
       "product_id": "AGBI627",
       "name": "Camouflage Long Sleeve Shirt",
@@ -210,14 +171,11 @@
       "image_id": "3_AGBI627",
       "image_thumbnail_id": "3_AGBI627_T",
       "brand": "VALENTINO",
-      "price":"625.00",
-      "color_image_map": {
-        "NAVY": [
-          "3_AGBI627",
-          "4_AGBI627"
-        ]
+      "price": "625.00",
+      "colour_image_map": {
+        "NAVY": ["3_AGBI627", "4_AGBI627"]
       }
-    }, 
+    },
     {
       "product_id": "_____",
       "name": "________",
@@ -226,18 +184,12 @@
       "image_id": "_____",
       "image_thumbnail_id": "________",
       "brand": "________",
-      "price":"______",
-      "color_image_map": {
-        "RED": [
-          "________",
-          "________"
-        ],
-        "BLUE": [
-          "________",
-          "________"
-        ]
+      "price": "______",
+      "colour_image_map": {
+        "RED": ["________", "________"],
+        "BLUE": ["________", "________"]
       }
-    }, 
+    },
     {
       "product_id": "_____",
       "name": "________",
@@ -246,18 +198,12 @@
       "image_id": "_____",
       "image_thumbnail_id": "________",
       "brand": "________",
-      "price":"______",
-      "color_image_map": {
-        "RED": [
-          "________",
-          "________"
-        ],
-        "BLUE": [
-          "________",
-          "________"
-        ]
+      "price": "______",
+      "colour_image_map": {
+        "RED": ["________", "________"],
+        "BLUE": ["________", "________"]
       }
-    }, 
+    },
     {
       "product_id": "_____",
       "name": "________",
@@ -266,20 +212,14 @@
       "image_id": "_____",
       "image_thumbnail_id": "________",
       "brand": "________",
-      "price":"______",
-      "color_image_map": {
-        "RED": [
-          "________",
-          "________"
-        ],
-        "BLUE": [
-          "________",
-          "________"
-        ]
+      "price": "______",
+      "colour_image_map": {
+        "RED": ["________", "________"],
+        "BLUE": ["________", "________"]
       }
     }
   ],
-  
+
   "_________": [
     {
       "product_id": "_____",
@@ -289,16 +229,10 @@
       "image_id": "_____",
       "image_thumbnail_id": "________",
       "brand": "________",
-      "price":"______",
-      "color_image_map": {
-        "RED": [
-          "________",
-          "________"
-        ],
-        "BLUE": [
-          "________",
-          "________"
-        ]
+      "price": "______",
+      "colour_image_map": {
+        "RED": ["________", "________"],
+        "BLUE": ["________", "________"]
       }
     }
   ]

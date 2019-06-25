@@ -6,7 +6,7 @@ from os import path
 import logging
 
 
-image_category = 'PRODUCTS'
+image_category = 'PRODUCT'
 
 workdir = os.getcwd()
 
@@ -27,9 +27,10 @@ def generate():
 
     for category, products in config_data_map.product_data.items():
         for product in products:
-            for color, images in product["color_image_map"].items():
+            for colour, images in product["colour_image_map"].items():
                 product_name = product["name"]
-                image_description = color + " " + category + " " + product_name
+                image_description = product_name+" " + colour + " " + category
+                image_description = image_description[:20]
 
                 xml_doc = templates.image.format(
                     image_category=image_category,
@@ -39,7 +40,7 @@ def generate():
                     extension='jpg',
                     image_data=get_base_64_image(product["image_thumbnail_id"], "jpg"))
                 xml_collection.append(xml_doc)
-                print(category, color, product["image_thumbnail_id"])
+                print(category, colour, product["image_thumbnail_id"])
 
                 for image in images:
                     xml_doc = templates.image.format(
@@ -50,7 +51,7 @@ def generate():
                         extension='jpg',
                         image_data=get_base_64_image(image, "jpg"))
                     xml_collection.append(xml_doc)
-                    print(category, color, image)
+                    print(category, colour, image)
 
     print("""
 

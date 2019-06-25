@@ -18,17 +18,17 @@ def generate():
         colour_set = set()
         for product in products:
             sizes = config_data_map.cat_sizes[category]
-            color_map = product["color_image_map"]
-            for colour, images in color_map.items():
+            colour_map = product["colour_image_map"]
+            for colour, images in colour_map.items():
                 colour_set.add(colour)
 
         for colour in colour_set:
             colour_id = colour.replace("/", "_").replace(" ", "_")
 
             colour_xml = templates.colour.format(
-                color_id=colour_id,
+                colour_id=colour_id,
                 category_id=category,
-                color_description=colour,
+                colour_description=colour.title(),
             )
             colour_xml_collection.append(colour_xml)
             print(colour_id, category, colour)
@@ -47,14 +47,14 @@ def generate():
     print(""" 
     ****************************************  
 
-        Generated color range count:  {count}
+        Generated colour range count:  {count}
 
     ****************************************""".format(count=str(len(colour_range_xml_collection))))
     file_writer.write_config("ColourRange.xml", colour_range_xml_collection)
 
     print("""    ****************************************  
 
-        Generated color count {count}
+        Generated colour count {count}
 
     ****************************************  
     """.format(count=str(len(colour_xml_collection))))

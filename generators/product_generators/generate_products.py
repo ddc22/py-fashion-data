@@ -15,10 +15,10 @@ generated_data = {
 }
 
 
-def generate_sku_product_id(product_id, sizes, colors, size, color):
+def generate_sku_product_id(product_id, sizes, colours, size, colour):
     sku_product_id = product_id + "-"
     sku_product_id += str(sizes.index(size) + 1)
-    sku_product_id += str(colors.index(color) + 1)
+    sku_product_id += str(colours.index(colour) + 1)
     return sku_product_id
 
 
@@ -44,34 +44,35 @@ def generate_scs_product(product, category):
 
 def generate_sku_product(product, category):
     count = 0
-    color_map = product["color_image_map"]
-    colors = list(color_map.keys())
+    colour_map = product["colour_image_map"]
+    colours = list(colour_map.keys())
     xml_collection = []
     if category not in config_data_map.cat_sizes:
         logging.warning('Category sizes not defined')
     sizes = config_data_map.cat_sizes[category]
-    for color, images in color_map.items():
+    for colour, images in colour_map.items():
         for size in sizes:
             image_id = images[0]
             count += 1
             product_id = product["product_id"]
 
             sku_product_id = generate_sku_product_id(
-                product_id, sizes, colors, size, color)
+                product_id, sizes, colours, size, colour)
 
             generated_data["products_array"].append(sku_product_id)
             product_image_map = generated_data["product_image_map"]
-            product_image_map["LARGE"][sku_product_id] = color_map[color]
-            print(category, product_id, sku_product_id, color, size, image_id)
+            product_image_map["LARGE"][sku_product_id] = colour_map[colour]
+            print(category, product_id, sku_product_id, colour, size, image_id)
 
             # Max length fixes
             long_description = product["long_description"][:199]
             name = product["name"][:19]
+            colour_id = colour.replace("/", "_").replace(" ", "_")
             xml_doc = templates.sku_product.format(
                 sku_product_id=sku_product_id,
                 product_id=product_id,
                 category=category,
-                color=color,
+                colour=colour_id,
                 name=name,
                 long_description=long_description,
                 info=product["info"],

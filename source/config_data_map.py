@@ -28,7 +28,7 @@ product_data = {
             "image_thumbnail_id": "1_FPCS7PX_T",
             "brand": "DSQUARED2",
             "price": "495.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "BLUE": [
                     "1_FPCS7PX",
                     "2_FPCS7PX",
@@ -47,7 +47,7 @@ product_data = {
             "image_thumbnail_id": "6_3V3A8EJ_T",
             "brand": "STONE ISLAND",
             "price": "295.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "AVIO": [
                     "6_3V3A8EJ",
                     "7_3V3A8EJ"
@@ -72,7 +72,7 @@ product_data = {
             "image_thumbnail_id": "11_ZIFTSBH_T",
             "brand": "PALM ANGELS",
             "price": "339.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "MULTI": [
                     "11_ZIFTSBH",
                     "12_ZIFTSBH"
@@ -88,7 +88,7 @@ product_data = {
             "image_thumbnail_id": "13_ATNYUDT_T",
             "brand": "JW ANDERSON",
             "price": "659.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "KHAKI": [
                     "13_ATNYUDT",
                     "14_ATNYUDT"
@@ -104,7 +104,7 @@ product_data = {
             "image_thumbnail_id": "15_PK8EI8E_T",
             "brand": "MONCLER",
             "price": "875.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "NAVY": [
                     "15_PK8EI8E",
                     "16_PK8EI8E"
@@ -124,7 +124,7 @@ product_data = {
             "image_thumbnail_id": "19_HIIX22T_T",
             "brand": "STONE ISLAND",
             "price": "295.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "STUCCO": [
                     "19_HIIX22T",
                     "20_HIIX22T"
@@ -144,7 +144,7 @@ product_data = {
             "image_thumbnail_id": "23_PFBGCGM_T",
             "brand": "GUCCI",
             "price": "1160.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "CASP/BEIGE": [
                     "23_PFBGCGM",
                     "24_PFBGCGM"
@@ -160,7 +160,7 @@ product_data = {
             "image_thumbnail_id": "25_5RG0MF2_T",
             "brand": "STONE ISLAND",
             "price": "350.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "SAGE": [
                     "25_5RG0MF2",
                     "26_5RG0MF2"
@@ -176,7 +176,7 @@ product_data = {
             "image_thumbnail_id": "27_BR2OSZX_T",
             "brand": "MONCLER",
             "price": "419.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "BLACK": [
                     "27_BR2OSZX",
                     "28_BR2OSZX"
@@ -192,7 +192,7 @@ product_data = {
             "image_thumbnail_id": "29_HB05Z4U_T",
             "brand": "Polo Ralph Lauren",
             "price": "155.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "FRENCH NAVY": [
                     "29_HB05Z4U",
                     "30_HB05Z4U",
@@ -214,7 +214,7 @@ product_data = {
             "image_thumbnail_id": "1_ECY3U8K_T",
             "brand": "GUCCI",
             "price": "490.00",
-            "color_image_map": {
+            "colour_image_map": {
                 "BLUE/WHITE": [
                     "1_ECY3U8K",
                     "2_ECY3U8K"
