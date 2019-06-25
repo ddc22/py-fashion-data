@@ -460,7 +460,7 @@ def sample_colour_range():
             colour=colour
         ))
     sample = sample + colour_range_end
-    print("###### product attribut brand #######")
+    print("###### colour range #######")
     print(sample)
 
 
@@ -485,5 +485,50 @@ def sample_colour():
             colour=colour
         ))
     sample = sample + colour_range_end
-    print("###### product attribut brand #######")
+    print("###### colour #######")
+    print(sample)
+
+
+size = """
+<retail:size xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <retail:sizeId>{size_id}</retail:sizeId>
+    <retail:sizeRangeId>{size_range_id}</retail:sizeRangeId>
+    <retail:description>{size_description}</retail:description>
+</retail:size>
+"""
+
+size_range_start = """
+    <retail:sizeRange xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:sizeRangeId>{size_range_id}</retail:sizeRangeId>
+        <retail:description>{description}</retail:description>
+"""
+size_range_sizes = """        <retail:sizeId sizeRangeId="{size_range_id}">{size}</retail:sizeId>
+"""
+size_range_end = "    </retail:sizeRange>"
+
+
+def sample_size():
+    sample = size.format_map(SafeDict(
+        size_id="M/L".replace("/", "_"),
+        size_range_id='MC_JACKETS_COATS',
+        size_description='M/L',
+    ))
+
+    print("###### size #######")
+    print(sample)
+
+
+def sample_size_range():
+    sample = size_range_start.format_map(SafeDict(
+        size_range_id="MC_JACKETS_COATS",
+        description="MC_JACKETS_COATS".replace("_", " ").title()
+    ))
+    for size in ["S", "M/L", "6.5"]:
+        sample = sample + size_range_sizes.format_map(SafeDict(
+            size_range_id="MC_JACKETS_COATS",
+            size=size.replace("/", "_").replace(".", "POINT")
+
+        ))
+    sample = sample + size_range_end
+    print("###### size range #######")
     print(sample)

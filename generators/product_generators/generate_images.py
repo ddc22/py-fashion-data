@@ -1,7 +1,7 @@
 from source import config_data_map, templates
 import base64
 import os
-from utilsx import file_writer
+from utilsx import file_writer, util
 from os import path
 import logging
 
@@ -30,7 +30,7 @@ def generate():
             for colour, images in product["colour_image_map"].items():
                 product_name = product["name"]
                 image_description = product_name+" " + colour + " " + category
-                image_description = image_description[:20]
+                image_description = util.force_length(image_description, 20)
 
                 xml_doc = templates.image.format(
                     image_category=image_category,

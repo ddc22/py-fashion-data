@@ -5,6 +5,7 @@ from source import templates
 
 import logging
 from utilsx import file_writer
+from utilsx import util
 
 generated_data = {
     "products_array": [],
@@ -29,16 +30,18 @@ def generate_scs_product(product, category):
     product_image_map["LARGE"][product_id] = [product["image_id"]]
     product_image_map["THUMB"][product_id] = [product["image_thumbnail_id"]]
 
-    long_description = product["long_description"][:199]
-    name = product["name"][:19]
+    long_description = util.force_length(product["long_description"], 199)
+    name = util.safe_force_reverse_length(product["name"], 19)
+    # Brand greater than 19 not allowed
+    util.assert_max_length(product["brand"], 19)
     xml_doc = templates.product.format(
         product_id=product["product_id"],
         category=category,
         name=name,
         long_description=long_description,
-        info=product["info"],
+        info=util.safe_force_length(product["info"], 299),
         image_id=product["image_id"],
-        brand=product["brand"])
+        brand=util.force_length(product["brand"], 20))
     return xml_doc
 
 
@@ -49,6 +52,7 @@ def generate_sku_product(product, category):
     xml_collection = []
     if category not in config_data_map.cat_sizes:
         logging.warning('Category sizes not defined')
+        pass
     sizes = config_data_map.cat_sizes[category]
     for colour, images in colour_map.items():
         for size in sizes:
@@ -65,9 +69,12 @@ def generate_sku_product(product, category):
             print(category, product_id, sku_product_id, colour, size, image_id)
 
             # Max length fixes
-            long_description = product["long_description"][:199]
-            name = product["name"][:19]
+            long_description = util.force_length(
+                product["long_description"], 200)
+            name = util.safe_force_reverse_length(product["name"], 19)
+
             colour_id = colour.replace("/", "_").replace(" ", "_")
+            size_id = size.replace("/", "_").replace(".", "POINT")
             xml_doc = templates.sku_product.format(
                 sku_product_id=sku_product_id,
                 product_id=product_id,
@@ -75,10 +82,10 @@ def generate_sku_product(product, category):
                 colour=colour_id,
                 name=name,
                 long_description=long_description,
-                info=product["info"],
+                info=util.force_length(product["info"], 300),
                 image_id=image_id,
-                brand=product["brand"],
-                size=size)
+                brand=util.force_length(product["brand"], 20),
+                size=size_id)
             xml_collection.append(xml_doc)
     return xml_collection
 
@@ -91,13 +98,13 @@ def generate():
             xml_collection.append(generate_scs_product(product, category))
             xml_collection.extend(generate_sku_product(product, category))
 
-    print(""" 
+    print("""
 
-    **********************************  
+    **********************************
 
         Generated products count {count}
 
-    **********************************    
+    **********************************
 
 
     """.format(count=str(len(xml_collection))))
