@@ -13,6 +13,10 @@ from source import config_data_map
 
 from generators.product_generators import generate_products
 from generators.product_generators import generate_supplier_product
+from generators.product_generators import generate_product_ordering
+from generators.product_generators import generate_item_inventory_level
+
+
 from generators.product_generators import generate_product_media
 from generators.product_generators import generate_product_price
 from generators.product_generators import generate_product_product_group
@@ -39,6 +43,9 @@ product_image_map = generated_data["product_image_map"]
 
 generate_product_media.generate(product_image_map)
 generate_supplier_product.generate(products_array)
+generate_product_ordering.generate(products_array)
+generate_item_inventory_level.generate(products_array)
+
 generate_product_price.generate()
 generate_product_product_group.generate()
 generate_images.generate()

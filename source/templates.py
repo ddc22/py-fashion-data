@@ -490,11 +490,11 @@ def sample_colour():
 
 
 size = """
-<retail:size xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <retail:sizeId>{size_id}</retail:sizeId>
-    <retail:sizeRangeId>{size_range_id}</retail:sizeRangeId>
-    <retail:description>{size_description}</retail:description>
-</retail:size>
+    <retail:size xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns11="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns13="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns3="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns6="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/addressLookup/service" xmlns:ns9="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:sizeId>{size_id}</retail:sizeId>
+        <retail:sizeRangeId>{size_range_id}</retail:sizeRangeId>
+        <retail:description>{size_description}</retail:description>
+    </retail:size>
 """
 
 size_range_start = """
@@ -532,3 +532,29 @@ def sample_size_range():
     sample = sample + size_range_end
     print("###### size range #######")
     print(sample)
+
+
+product_ordering = """
+    <retail:productOrdering xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns10="http://www.enactor.com/crm/customerLoyalty/service" xmlns:ns11="http://www.enactor.com/addressLookup/service" xmlns:ns12="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns13="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns4="http://www.enactor.com/crm" xmlns:ns9="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <retail:productId>{product_id}</retail:productId>
+        <retail:permitsCollection>true</retail:permitsCollection>
+        <retail:permitsReservation>true</retail:permitsReservation>
+        <retail:permitsDelivery>true</retail:permitsDelivery>
+        <retail:preferredDeliveryMethod>
+            <retail:deliveryTypeId>{delivery_type_id}</retail:deliveryTypeId>
+        </retail:preferredDeliveryMethod>
+        <retail:alternativeDeliveryMethods/>
+        <retail:returnDeliveryMethods/>
+    </retail:productOrdering>
+"""
+item_inventory_level = """
+	<retail:itemInventoryLevel xmlns:core="http://www.enactor.com/core" xmlns:customerService="http://www.enactor.com/service/CustomerInventoryManagementService" xmlns:service="http://www.enactor.com/service/InventoryManagementService" xmlns:orders="http://www.enactor.com/orders" xmlns:retail="http://www.enactor.com/retail" xmlns:exslt="http://exslt.org/common">
+      <retail:inventoryItemId>{product_id}</retail:inventoryItemId>
+      <retail:inventoryItemType>PRODUCT</retail:inventoryItemType>
+      <retail:inventoryLocationId>
+         <retail:locationId>{location_id}</retail:locationId>
+      </retail:inventoryLocationId>
+      <retail:inventoryTypeId>AVA</retail:inventoryTypeId>
+      <retail:value>{value}</retail:value>
+   </retail:itemInventoryLevel>
+"""
