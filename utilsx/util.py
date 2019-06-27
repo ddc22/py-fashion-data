@@ -21,10 +21,10 @@ def force_length(string_val, length):
     string_val = string_val.strip()
     if len(string_val) > length:
         truncated = string_val[:length]
-        logging.warning(
-            "Long description truncated due to size limit ["+str(length)+"] : "+string_val)
-        logging.warning(
-            "Long description truncated value : "+truncated)
+        logging.exception(
+            "Truncated due to size limit ["+str(length)+"] : "+string_val)
+        logging.exception(
+            "Truncated value : "+truncated)
         return truncated
     return string_val
 
@@ -71,10 +71,10 @@ def safe_force_reverse_length(string_val, length):
     if len(string_val) > length:
         split_index = find_reverse_safe_split_index(string_val, length)
         truncated = string_val[split_index:]
-        logging.warning(
-            "Long description truncated due to size limit ["+str(length)+"] : "+string_val)
-        logging.warning(
-            "Long description truncated value : "+truncated)
+        logging.exception(
+            "Truncated due to size limit ["+str(length)+"] : "+string_val)
+        logging.exception(
+            "Truncated value : "+truncated)
         return truncated
     return string_val
 
@@ -84,10 +84,18 @@ def safe_force_length(string_val, length):
     if len(string_val) > length:
         split_index = find_safe_split_index(string_val, length)
         truncated = string_val[:split_index]
-        logging.warning(
-            "Long description truncated due to size limit ["+str(length)+"] : "+string_val)
-        logging.warning(
-            "Long description truncated value : "+truncated)
+        logging.exception(
+            "Truncated due to size limit ["+str(length)+"] : "+string_val)
+        logging.exception(
+            "Truncated value : "+truncated)
         return truncated
     return string_val
 # print(get_hash("asdsa"))
+
+
+def get_product_map(product_data):
+    product_map = {}
+    for category, products in product_data.items():
+        for product in products:
+            product_map[product["product_id"]] = product
+    return product_map
