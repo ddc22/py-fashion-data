@@ -82,10 +82,75 @@ data = [
     {
         "group_id": "WOMENS",
         "name": "Womens",
-        "children": [{
-            "group_id": "W_CLOTHING",
-            "name": "Womens Clothing",
-            "children": []
-        }]
+        "children": [
+            {
+                "group_id": "W_CLOTHING",
+                "name": "Womens Clothing",
+                "children": [
+                    {
+                        "group_id": "WC_DRESSES",
+                        "name": "Womens Clothing Dresses",
+                        "children": []
+                    },
+                    {
+                        "group_id": "WC_TOPS",
+                        "name": "Womens Clothing Tops",
+                        "children": []
+                    },
+                    {
+                        "group_id": "WC_TROUSERS",
+                        "name": "Womens Clothing Trousers",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "group_id": "W_SHOES",
+                "name": "Womens Shoes",
+                "children": [
+                    {
+                        "group_id": "WS_BOOTS",
+                        "name": "Womens Shoes Boots",
+                        "children": []
+                    },
+                    {
+                        "group_id": "WS_FLATS",
+                        "name": "Womens Shoes Flats",
+                        "children": []
+                    },
+                    {
+                        "group_id": "WS_HEELS",
+                        "name": "Womens Shoes Heels",
+                        "children": []
+                    },
+                    {
+                        "group_id": "WS_TRAINERS",
+                        "name": "Womens Shoes Trainers",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "group_id": "W_ACCESSORIES",
+                "name": "Womens Accessories",
+                "children": [
+                    {
+                        "group_id": "WA_BAGS",
+                        "name": "Womens Accessories Bags",
+                        "children": []
+                    },
+                    {
+                        "group_id": "WA_BELTS",
+                        "name": "Womens Accessories Belts",
+                        "children": []
+                    },
+                    {
+                        "group_id": "WA_FRAGRANCE",
+                        "name": "Womens Accessories Fragrance",
+                        "children": []
+                    }
+                ]
+            }
+        ]
     }
 ]

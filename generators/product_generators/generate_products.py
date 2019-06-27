@@ -9,6 +9,7 @@ from utilsx import util
 
 generated_data = {
     "products_array": [],
+    "grouped_skus": {},
     "product_image_map": {
         "LARGE": {},
         "THUMB": {}
@@ -51,7 +52,7 @@ def generate_sku_product(product, category):
     colours = list(colour_map.keys())
     xml_collection = []
     if category not in config_data_map.cat_sizes:
-        logging.warning('Category sizes not defined')
+        logging.exception('Category sizes not defined')
         pass
     sizes = config_data_map.cat_sizes[category]
     for colour, images in colour_map.items():
@@ -64,6 +65,10 @@ def generate_sku_product(product, category):
                 product_id, sizes, colours, size, colour)
 
             generated_data["products_array"].append(sku_product_id)
+            if product_id not in generated_data["grouped_skus"]:
+                generated_data["grouped_skus"][product_id] = []
+            generated_data["grouped_skus"][product_id].append(sku_product_id)
+
             product_image_map = generated_data["product_image_map"]
             product_image_map["LARGE"][sku_product_id] = colour_map[colour]
             print(category, product_id, sku_product_id, colour, size, image_id)

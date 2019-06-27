@@ -395,7 +395,7 @@ def sample_product_search_category_mapping():
 product_attribute_stars = """
     <retail:productAttribute xmlns:core="http://www.enactor.com/core" xmlns:hta="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/api/200803" xmlns:htd="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/200803" xmlns:htt="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803" xmlns:ns13="http://www.enactor.com/retail/restaurantTableStatus/service" xmlns:ns14="http://www.enactor.com/retail/storedRetailTransaction/service" xmlns:ns4="http://www.enactor.com/addressLookup/service" xmlns:ns7="http://www.enactor.com/crm" xmlns:ns8="http://www.enactor.com/retail/storedRestaurantSaleTransaction/service" xmlns:ns9="http://www.enactor.com/crm/customerLoyalty/service" xmlns:retail="http://www.enactor.com/retail" xmlns:sref="http://docs.oasis-open.org/wsbpel/2.0/serviceref" xmlns:tools="http://www.enactor.com/tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <retail:optionPathId>stars_option_path</retail:optionPathId>
-        <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_path">
+        <retail:optionSetId type="productAttributeOptionSet" optionSetId="stars_option_set">
             <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
         </retail:optionSetId>
         <retail:dataType>FLOAT</retail:dataType>    
@@ -412,10 +412,10 @@ product_attribute_brand = """
         <retail:optionSetId type="productAttributeOptionSet" optionSetId="brand_option_set">
             <retail:groupId groupHierarchyId="All" groupTypeId="region">UK</retail:groupId>
         </retail:optionSetId>
-        <retail:dataType>STRING</retail:dataType>    
+        <retail:dataType>STRING</retail:dataType>       
         <retail:value id="brand_option_path">
-            <retail:floatValue>{value}</retail:floatValue>
-        </retail:value>
+            <retail:stringValue>Brand_{value}</retail:stringValue>
+        </retail:value>     
         <retail:productId>{product_id}</retail:productId>
     </retail:productAttribute>
 """

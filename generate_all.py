@@ -40,6 +40,8 @@ start_time = time.time()
 generated_data = generate_products.generate()
 products_array = generated_data["products_array"]
 product_image_map = generated_data["product_image_map"]
+grouped_skus = generated_data["grouped_skus"]
+
 
 generate_product_media.generate(product_image_map)
 generate_supplier_product.generate(products_array)
@@ -49,7 +51,7 @@ generate_item_inventory_level.generate(products_array)
 generate_product_price.generate()
 generate_product_product_group.generate()
 generate_images.generate()
-generate_product_attribute.generate(products_array)
+generate_product_attribute.generate(grouped_skus)
 
 generate_product_group.generate()
 generate_brand_group.generate()

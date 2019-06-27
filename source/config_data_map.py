@@ -53,7 +53,7 @@ product_data = {
       "image_id": "1_FPCS7PX",
       "image_thumbnail_id": "1_FPCS7PX_T",
       "brand": "DSQUARED2",
-      "price": "495.00",
+      "price":"495.00",
       "colour_image_map": {
         "BLUE": [
           "1_FPCS7PX",
@@ -72,7 +72,7 @@ product_data = {
       "image_id": "6_3V3A8EJ",
       "image_thumbnail_id": "6_3V3A8EJ_T",
       "brand": "STONE ISLAND",
-      "price": "295.00",
+      "price":"295.00",
       "colour_image_map": {
         "AVIO": [
           "6_3V3A8EJ",
@@ -97,7 +97,7 @@ product_data = {
       "image_id": "11_ZIFTSBH",
       "image_thumbnail_id": "11_ZIFTSBH_T",
       "brand": "PALM ANGELS",
-      "price": "339.00",
+      "price":"339.00",
       "colour_image_map": {
         "MULTI": [
           "11_ZIFTSBH",
@@ -113,7 +113,7 @@ product_data = {
       "image_id": "13_ATNYUDT",
       "image_thumbnail_id": "13_ATNYUDT_T",
       "brand": "JW ANDERSON",
-      "price": "659.00",
+      "price":"659.00",
       "colour_image_map": {
         "KHAKI": [
           "13_ATNYUDT",
@@ -129,7 +129,7 @@ product_data = {
       "image_id": "15_PK8EI8E",
       "image_thumbnail_id": "15_PK8EI8E_T",
       "brand": "MONCLER",
-      "price": "875.00",
+      "price":"875.00",
       "colour_image_map": {
         "NAVY": [
           "15_PK8EI8E",
@@ -149,7 +149,7 @@ product_data = {
       "image_id": "19_HIIX22T",
       "image_thumbnail_id": "19_HIIX22T_T",
       "brand": "STONE ISLAND",
-      "price": "295.00",
+      "price":"295.00",
       "colour_image_map": {
         "STUCCO": [
           "19_HIIX22T",
@@ -169,7 +169,7 @@ product_data = {
       "image_id": "23_PFBGCGM",
       "image_thumbnail_id": "23_PFBGCGM_T",
       "brand": "GUCCI",
-      "price": "1160.00",
+      "price":"1160.00",
       "colour_image_map": {
         "CASP/BEIGE": [
           "23_PFBGCGM",
@@ -185,7 +185,7 @@ product_data = {
       "image_id": "25_5RG0MF2",
       "image_thumbnail_id": "25_5RG0MF2_T",
       "brand": "STONE ISLAND",
-      "price": "350.00",
+      "price":"350.00",
       "colour_image_map": {
         "SAGE": [
           "25_5RG0MF2",
@@ -201,7 +201,7 @@ product_data = {
       "image_id": "27_BR2OSZX",
       "image_thumbnail_id": "27_BR2OSZX_T",
       "brand": "MONCLER",
-      "price": "419.00",
+      "price":"419.00",
       "colour_image_map": {
         "BLACK": [
           "27_BR2OSZX",
@@ -217,7 +217,7 @@ product_data = {
       "image_id": "29_HB05Z4U",
       "image_thumbnail_id": "29_HB05Z4U_T",
       "brand": "Polo Ralph Lauren",
-      "price": "155.00",
+      "price":"155.00",
       "colour_image_map": {
         "FRENCH NAVY": [
           "29_HB05Z4U",
@@ -229,6 +229,7 @@ product_data = {
       }
     }
   ],
+  
   "MC_SHIRTS": [
     {
       "product_id": "ECY3U8K",
@@ -238,14 +239,14 @@ product_data = {
       "image_id": "1_ECY3U8K",
       "image_thumbnail_id": "1_ECY3U8K_T",
       "brand": "GUCCI",
-      "price": "490.00",
+      "price":"490.00",
       "colour_image_map": {
         "BLUE/WHITE": [
           "1_ECY3U8K",
           "2_ECY3U8K"
         ]
       }
-    },
+    }, 
     {
       "product_id": "AGBI627",
       "name": "Camouflage Long Sleeve Shirt",
@@ -254,14 +255,14 @@ product_data = {
       "image_id": "3_AGBI627",
       "image_thumbnail_id": "3_AGBI627_T",
       "brand": "VALENTINO",
-      "price": "625.00",
+      "price":"625.00",
       "colour_image_map": {
         "NAVY": [
           "3_AGBI627",
           "4_AGBI627"
         ]
       }
-    },
+    }, 
     {
       "product_id": "DX8ASD3",
       "name": "Long Sleeved Orb Shirt",
@@ -270,7 +271,7 @@ product_data = {
       "image_id": "5_DX8ASD3",
       "image_thumbnail_id": "5_DX8ASD3_T",
       "brand": "VIVIENNE WESTWOOD",
-      "price": "200.00",
+      "price":"200.00",
       "colour_image_map": {
         "BURGUNDY": [
           "5_DX8ASD3",
@@ -284,7 +285,7 @@ product_data = {
           "11_DX8ASD3"
         ]
       }
-    },
+    }, 
     {
       "product_id": "8PY35AD",
       "name": "Paint Camouflage Shirt",
@@ -293,7 +294,7 @@ product_data = {
       "image_id": "12_8PY35AD",
       "image_thumbnail_id": "12_8PY35AD_T",
       "brand": "OFF WHITE",
-      "price": "460.00",
+      "price":"460.00",
       "colour_image_map": {
         "CAMO": [
           "12_8PY35AD",
@@ -303,7 +304,7 @@ product_data = {
           "16_8PY35AD"
         ]
       }
-    },
+    }, 
     {
       "product_id": "0J70Q0P",
       "name": "George Shirt",
@@ -312,7 +313,7 @@ product_data = {
       "image_id": "17_0J70Q0P",
       "image_thumbnail_id": "17_0J70Q0P_T",
       "brand": "BURBERRY",
-      "price": "250.00",
+      "price":"250.00",
       "colour_image_map": {
         "BEIGE": [
           "17_0J70Q0P",
@@ -330,7 +331,7 @@ product_data = {
           "25_0J70Q0P"
         ]
       }
-    },
+    }, 
     {
       "product_id": "X7E4OMV",
       "name": "Ff Short Sleeve Shirt",
@@ -339,14 +340,14 @@ product_data = {
       "image_id": "26_X7E4OMV",
       "image_thumbnail_id": "26_X7E4OMV_T",
       "brand": "FENDI",
-      "price": "489.00",
+      "price":"489.00",
       "colour_image_map": {
         "BEIGE": [
           "26_X7E4OMV",
           "27_X7E4OMV"
         ]
       }
-    },
+    }, 
     {
       "product_id": "7D7MLHR",
       "name": "Windsor Long Sleeve Shirt",
@@ -355,7 +356,7 @@ product_data = {
       "image_id": "28_7D7MLHR",
       "image_thumbnail_id": "28_7D7MLHR_T",
       "brand": "BURBERRY",
-      "price": "239.00",
+      "price":"239.00",
       "colour_image_map": {
         "BEIGE": [
           "28_7D7MLHR",
@@ -366,7 +367,7 @@ product_data = {
           "31_7D7MLHR"
         ]
       }
-    },
+    }, 
     {
       "product_id": "NQYATWA",
       "name": "Silk Printed Short Sleeve Shirt",
@@ -375,7 +376,7 @@ product_data = {
       "image_id": "32_NQYATWA",
       "image_thumbnail_id": "32_NQYATWA_T",
       "brand": "DOLCE AND GABBANA",
-      "price": "725.00 ",
+      "price":"725.00 ",
       "colour_image_map": {
         "MULTI": [
           "32_NQYATWA",
@@ -383,7 +384,7 @@ product_data = {
           "34_NQYATWA"
         ]
       }
-    },
+    }, 
     {
       "product_id": "1RZV8UL",
       "name": "Abstract Short Sleeve Shirt",
@@ -392,7 +393,7 @@ product_data = {
       "image_id": "35_1RZV8UL",
       "image_thumbnail_id": "35_1RZV8UL_T",
       "brand": "PRADA",
-      "price": "669.00 ",
+      "price":"669.00 ",
       "colour_image_map": {
         "MULTI": [
           "35_1RZV8UL",
@@ -400,7 +401,7 @@ product_data = {
           "37_1RZV8UL"
         ]
       }
-    },
+    }, 
     {
       "product_id": "3EN2OV5",
       "name": "Long Sleeved Orb Shirt",
@@ -409,7 +410,7 @@ product_data = {
       "image_id": "38_3EN2OV5",
       "image_thumbnail_id": "38_3EN2OV5_T",
       "brand": "VIVIENNE WESTWOOD",
-      "price": "189.00 ",
+      "price":"189.00 ",
       "colour_image_map": {
         "SKY": [
           "38_3EN2OV5",
@@ -432,7 +433,7 @@ product_data = {
           "49_3EN2OV5"
         ]
       }
-    },
+    }, 
     {
       "product_id": "D250OGV",
       "name": "Three Button Shirt",
@@ -441,7 +442,7 @@ product_data = {
       "image_id": "50_D250OGV",
       "image_thumbnail_id": "50_D250OGV_T",
       "brand": "VIVIENNE WESTWOOD",
-      "price": "208.00",
+      "price":"208.00",
       "colour_image_map": {
         "BLACK": [
           "50_D250OGV",
@@ -449,7 +450,7 @@ product_data = {
           "52_D250OGV"
         ]
       }
-    },
+    }, 
     {
       "product_id": "XH8VSRV",
       "name": "All Over Print Short Sleeve Shirt",
@@ -458,14 +459,14 @@ product_data = {
       "image_id": "53_XH8VSRV",
       "image_thumbnail_id": "53_XH8VSRV_T",
       "brand": "POLO RALPH LAUREN",
-      "price": "70.00",
+      "price":"70.00",
       "colour_image_map": {
         "PINK": [
           "53_XH8VSRV",
           "54_XH8VSRV"
         ]
       }
-    },
+    }, 
     {
       "product_id": "TIK9458",
       "name": "Busterino Short Sleeve Shirt",
@@ -474,14 +475,14 @@ product_data = {
       "image_id": "55_TIK9458",
       "image_thumbnail_id": "55_TIK9458_T",
       "brand": "BOSS ATHLEISURE",
-      "price": "63.00 ",
+      "price":"63.00 ",
       "colour_image_map": {
         "NAVY": [
           "55_TIK9458",
           "56_TIK9458"
         ]
       }
-    },
+    }, 
     {
       "product_id": "HJSK1V4",
       "name": "Tape Shirt",
@@ -490,14 +491,14 @@ product_data = {
       "image_id": "57_HJSK1V4",
       "image_thumbnail_id": "57_HJSK1V4_T",
       "brand": "HELMUT LANG",
-      "price": "409.00",
+      "price":"409.00",
       "colour_image_map": {
         "WHITE": [
           "57_HJSK1V4",
           "58_HJSK1V4"
         ]
       }
-    },
+    }, 
     {
       "product_id": "6AG38G1",
       "name": "Floral Print Shirt",
@@ -506,14 +507,14 @@ product_data = {
       "image_id": "59_6AG38G1",
       "image_thumbnail_id": "59_6AG38G1_T",
       "brand": "KENZO",
-      "price": "112.00",
+      "price":"112.00",
       "colour_image_map": {
         "MID BLUE": [
           "59_6AG38G1",
           "60_6AG38G1"
         ]
       }
-    },
+    }, 
     {
       "product_id": "B4UN1IG",
       "name": "Polo Short Sleeved Chino Shirt",
@@ -522,14 +523,14 @@ product_data = {
       "image_id": "61_B4UN1IG",
       "image_thumbnail_id": "61_B4UN1IG_T",
       "brand": "POLO RALPH LAUREN",
-      "price": "85.00",
+      "price":"85.00",
       "colour_image_map": {
         "YELLOW": [
           "61_B4UN1IG",
           "62_B4UN1IG"
         ]
       }
-    },
+    }, 
     {
       "product_id": "UZ2EAHL",
       "name": "Cheetah Shirt",
@@ -538,7 +539,7 @@ product_data = {
       "image_id": "63_UZ2EAHL",
       "image_thumbnail_id": "63_UZ2EAHL_T",
       "brand": "PS BY PAUL SMITH",
-      "price": "125.00",
+      "price":"125.00",
       "colour_image_map": {
         "NAVY": [
           "63_UZ2EAHL",
@@ -546,7 +547,7 @@ product_data = {
           "65_UZ2EAHL"
         ]
       }
-    },
+    }, 
     {
       "product_id": "JALIFR0",
       "name": "Colour Block Print Shirt",
@@ -555,14 +556,14 @@ product_data = {
       "image_id": "66_JALIFR0",
       "image_thumbnail_id": "66_JALIFR0_T",
       "brand": "POLO RALPH LAUREN",
-      "price": "129.00",
+      "price":"129.00",
       "colour_image_map": {
         "MULTI": [
           "66_JALIFR0",
           "67_JALIFR0"
         ]
       }
-    },
+    }, 
     {
       "product_id": "UWX9KXG",
       "name": "Polo Short Sleeved Chino Shirt",
@@ -571,7 +572,7 @@ product_data = {
       "image_id": "68_UWX9KXG",
       "image_thumbnail_id": "68_UWX9KXG_T",
       "brand": "POLO RALPH LAUREN",
-      "price": "85.00",
+      "price":"85.00",
       "colour_image_map": {
         "SUNSET GREEN": [
           "68_UWX9KXG",
@@ -581,7 +582,7 @@ product_data = {
           "72_UWX9KXG"
         ]
       }
-    },
+    }, 
     {
       "product_id": "O5K6LEB",
       "name": "Checked Tailored Fit Shirt",
@@ -590,7 +591,7 @@ product_data = {
       "image_id": "73_O5K6LEB",
       "image_thumbnail_id": "73_O5K6LEB_T",
       "brand": "Barbour",
-      "price": "49.00",
+      "price":"49.00",
       "colour_image_map": {
         "DRESS TARTAN": [
           "73_O5K6LEB",
@@ -599,6 +600,7 @@ product_data = {
       }
     }
   ],
+  
   "MC_SHORTS_SWIMWEAR": [
     {
       "product_id": "3G3CGRK",
@@ -608,14 +610,14 @@ product_data = {
       "image_id": "1_3G3CGRK",
       "image_thumbnail_id": "1_3G3CGRK_T",
       "brand": "GUCCI",
-      "price": "350.00",
+      "price":"350.00",
       "colour_image_map": {
         "IVORY": [
           "1_3G3CGRK",
           "2_3G3CGRK"
         ]
       }
-    },
+    }, 
     {
       "product_id": "LNQW8YH",
       "name": "Vlogo Camouflage Swim Shorts",
@@ -624,14 +626,14 @@ product_data = {
       "image_id": "3_LNQW8YH",
       "image_thumbnail_id": "3_LNQW8YH_T",
       "brand": "VALENTINO",
-      "price": "389.00",
+      "price":"389.00",
       "colour_image_map": {
         "ARMY": [
           "3_LNQW8YH",
           "4_LNQW8YH"
         ]
       }
-    },
+    }, 
     {
       "product_id": "CRD05IZ",
       "name": "Camouflage Drawstring Swimshorts",
@@ -640,14 +642,14 @@ product_data = {
       "image_id": "5_CRD05IZ",
       "image_thumbnail_id": "5_CRD05IZ_T",
       "brand": "VALENTINO",
-      "price": "325.00",
+      "price":"325.00",
       "colour_image_map": {
         "NVY/RED": [
           "5_CRD05IZ",
           "6_CRD05IZ"
         ]
       }
-    },
+    }, 
     {
       "product_id": "I39LSWL",
       "name": "Logo Swim Shorts",
@@ -656,7 +658,7 @@ product_data = {
       "image_id": "7_I39LSWl",
       "image_thumbnail_id": "7_I39LSWL_T",
       "brand": "DSQUARED2 UNDERWEAR",
-      "price": "179.00",
+      "price":"179.00",
       "colour_image_map": {
         "BLACK/WHITE": [
           "7_I39LSWl",
@@ -667,7 +669,7 @@ product_data = {
           "10_I39LSWl"
         ]
       }
-    },
+    }, 
     {
       "product_id": "64O23Y4",
       "name": "Starfish Swim Shorts",
@@ -676,7 +678,7 @@ product_data = {
       "image_id": "11_64O23Y4",
       "image_thumbnail_id": "11_64O23Y4_T",
       "brand": "Boss Bodywear",
-      "price": "45.00",
+      "price":"45.00",
       "colour_image_map": {
         "ORANGE": [
           "11_64O23Y4",
@@ -685,6 +687,7 @@ product_data = {
       }
     }
   ],
+  
   "MC_TROUSERS": [
     {
       "product_id": "8VOLTY5",
@@ -694,7 +697,7 @@ product_data = {
       "image_id": "1_7SLUY2D",
       "image_thumbnail_id": "1_7SLUY2D_T",
       "brand": "STONE ISLAND",
-      "price": "295.00",
+      "price":"295.00",
       "colour_image_map": {
         "BLACK": [
           "1_8VOLTY5",
@@ -710,7 +713,7 @@ product_data = {
       "image_id": "3_7SLUY2D",
       "image_thumbnail_id": "3_7SLUY2D_T",
       "brand": "STONE ISLAND",
-      "price": "260.00",
+      "price":"260.00",
       "colour_image_map": {
         "SAGE": [
           "3_7SLUY2D",
@@ -726,7 +729,7 @@ product_data = {
       "image_id": "5_JYRVTF8",
       "image_thumbnail_id": "5_JYRVTF8_T",
       "brand": "BBCLUB",
-      "price": "90.00",
+      "price":"90.00",
       "colour_image_map": {
         "HEATHER GREY": [
           "5_JYRVTF8",
@@ -746,7 +749,7 @@ product_data = {
       "image_id": "9_8RAOPKD",
       "image_thumbnail_id": "9_8RAOPKD_T",
       "brand": "STONE ISLAND",
-      "price": "207.00",
+      "price":"207.00",
       "colour_image_map": {
         "BEIGE": [
           "9_8RAOPKD",
@@ -762,7 +765,7 @@ product_data = {
       "image_id": "11_YGVBYFN",
       "image_thumbnail_id": "11_YGVBYFN_T",
       "brand": "Polo Ralph Lauren",
-      "price": "119.00",
+      "price":"119.00",
       "colour_image_map": {
         "LUXURY TAN": [
           "11_YGVBYFN",
@@ -781,7 +784,7 @@ product_data = {
       "image_id": "16_0XYYY19",
       "image_thumbnail_id": "16_0XYYY19_T",
       "brand": "BOSS BUSINESS",
-      "price": "169.00",
+      "price":"169.00",
       "colour_image_map": {
         "COLBALT": [
           "16_0XYYY19",
@@ -798,7 +801,7 @@ product_data = {
       "image_id": "19_7905732",
       "image_thumbnail_id": "19_7905732_T",
       "brand": "STONE ISLAND",
-      "price": "277.00",
+      "price":"277.00",
       "colour_image_map": {
         "NAVY": [
           "19_7905732",
@@ -814,7 +817,7 @@ product_data = {
       "image_id": "21_KMKT1IP",
       "image_thumbnail_id": "21_KMKT1IP_T",
       "brand": "2 MONCLER 1952",
-      "price": "385.00",
+      "price":"385.00",
       "colour_image_map": {
         "RED/BLUE": [
           "21_KMKT1IP",
@@ -830,7 +833,7 @@ product_data = {
       "image_id": "23_J6RU5Y6",
       "image_thumbnail_id": "23_J6RU5Y6_T",
       "brand": "PRADA",
-      "price": "455.00",
+      "price":"455.00",
       "colour_image_map": {
         "AVIO": [
           "23_J6RU5Y6",
@@ -846,7 +849,7 @@ product_data = {
       "image_id": "25_Z2RW7P1",
       "image_thumbnail_id": "25_Z2RW7P1_T",
       "brand": "Polo Ralph Lauren",
-      "price": "145.00",
+      "price":"145.00",
       "colour_image_map": {
         "SURPLUS CA": [
           "25_Z2RW7P1",
@@ -858,6 +861,7 @@ product_data = {
       }
     }
   ],
+  
   "MC_TSHIRTS": [
     {
       "product_id": "QXAR93Z",
@@ -867,7 +871,7 @@ product_data = {
       "image_id": "1_QXAR93Z",
       "image_thumbnail_id": "1_QXAR93Z_T",
       "brand": "GUCCI",
-      "price": "315.00",
+      "price":"315.00",
       "colour_image_map": {
         "BLACK/WHITE": [
           "1_QXAR93Z",
@@ -883,7 +887,7 @@ product_data = {
       "image_id": "3_1IYO8G3",
       "image_thumbnail_id": "3_1IYO8G3_T",
       "brand": "VALENTINO",
-      "price": "325.00",
+      "price":"325.00",
       "colour_image_map": {
         "WHITE/BLACK": [
           "3_1IYO8G3",
@@ -907,7 +911,7 @@ product_data = {
       "image_id": "9_WW89RF9",
       "image_thumbnail_id": "9_WW89RF9_T",
       "brand": "STONE ISLAND",
-      "price": "110.00",
+      "price":"110.00",
       "colour_image_map": {
         "OLIVIA": [
           "9_WW89RF9",
@@ -923,7 +927,7 @@ product_data = {
       "image_id": "11_Q30HROD",
       "image_thumbnail_id": "11_Q30HROD_T",
       "brand": "STONE ISLAND",
-      "price": "160.00",
+      "price":"160.00",
       "colour_image_map": {
         "BLUE": [
           "11_Q30HROD",
@@ -939,7 +943,7 @@ product_data = {
       "image_id": "13_GX8FYCZ",
       "image_thumbnail_id": "13_GX8FYCZ_T",
       "brand": "KENZO",
-      "price": "85.00",
+      "price":"85.00",
       "colour_image_map": {
         "ORANGE": [
           "13_GX8FYCZ",
@@ -948,6 +952,7 @@ product_data = {
       }
     }
   ],
+  
   "MS_DRESS_SHOES": [
     {
       "product_id": "UMBR43L",
@@ -957,7 +962,7 @@ product_data = {
       "image_id": "1_UMBR43L",
       "image_thumbnail_id": "1_UMBR43L_T",
       "brand": "GRENSON",
-      "price": "235.00",
+      "price":"235.00",
       "colour_image_map": {
         "TAN": [
           "1_UMBR43L",
@@ -976,7 +981,7 @@ product_data = {
       "image_id": "6_LE7OTN5",
       "image_thumbnail_id": "6_LE7OTN5_T",
       "brand": "JEFFERY WEST",
-      "price": "205.00",
+      "price":"205.00",
       "colour_image_map": {
         "DARK BROWN": [
           "6_LE7OTN5",
@@ -995,7 +1000,7 @@ product_data = {
       "image_id": "11_NJQRYT3",
       "image_thumbnail_id": "11_NJQRYT3_T",
       "brand": "JEFFERY WEST",
-      "price": "190.00",
+      "price":"190.00",
       "colour_image_map": {
         "ZAFIRO": [
           "11_NJQRYT3",
@@ -1014,7 +1019,7 @@ product_data = {
       "image_id": "16_96IUPIM",
       "image_thumbnail_id": "16_96IUPIM_T",
       "brand": "GRENSON",
-      "price": "108.00",
+      "price":"108.00",
       "colour_image_map": {
         "BLACK": [
           "16_96IUPIM",
@@ -1040,7 +1045,7 @@ product_data = {
       "image_id": "26_ZF5LZUR",
       "image_thumbnail_id": "26_ZF5LZUR_T",
       "brand": "GIUSEPPE ZANOTTI",
-      "price": "243.00",
+      "price":"243.00",
       "colour_image_map": {
         "BLACK/WHITE": [
           "26_ZF5LZUR",
@@ -1052,6 +1057,7 @@ product_data = {
       }
     }
   ],
+  
   "MS_TRAINERS": [
     {
       "product_id": "E8JC2JH",
@@ -1061,7 +1067,7 @@ product_data = {
       "image_id": "1_E8JC2JH",
       "image_thumbnail_id": "1_E8JC2JH_T",
       "brand": "MALLET",
-      "price": "132.00",
+      "price":"132.00",
       "colour_image_map": {
         "BLACK": [
           "1_E8JC2JH",
@@ -1080,7 +1086,7 @@ product_data = {
       "image_id": "6_Z67OK8Z",
       "image_thumbnail_id": "6_Z67OK8Z_T",
       "brand": "VALENTINO",
-      "price": "555.00",
+      "price":"555.00",
       "colour_image_map": {
         "GREY/SILVER": [
           "6_Z67OK8Z",
@@ -1106,7 +1112,7 @@ product_data = {
       "image_id": "16_OGF7Z8S",
       "image_thumbnail_id": "16_OGF7Z8S_T",
       "brand": "DOLCE AND GABBANA",
-      "price": "683.00",
+      "price":"683.00",
       "colour_image_map": {
         "ROSSO": [
           "16_OGF7Z8S",
@@ -1125,7 +1131,7 @@ product_data = {
       "image_id": "21_1X7O50V",
       "image_thumbnail_id": "21_1X7O50V_T",
       "brand": "FENDI",
-      "price": "580.00",
+      "price":"580.00",
       "colour_image_map": {
         "BLACK": [
           "21_1X7O50V",
@@ -1144,7 +1150,7 @@ product_data = {
       "image_id": "26_RGJFXE0",
       "image_thumbnail_id": "26_RGJFXE0_T",
       "brand": "MONCLER",
-      "price": "420.00",
+      "price":"420.00",
       "colour_image_map": {
         "WHITE": [
           "26_RGJFXE0",
@@ -1153,8 +1159,9 @@ product_data = {
           "29_RGJFXE0"
         ]
       }
-    }
+    }    
   ],
+  
   "MA_BAGS": [
     {
       "product_id": "RAP2OKQ",
@@ -1164,7 +1171,7 @@ product_data = {
       "image_id": "1_RAP2OKQ",
       "image_thumbnail_id": "1_RAP2OKQ_T",
       "brand": "GUCCI",
-      "price": "1200.00",
+      "price":"1200.00",
       "colour_image_map": {
         "BEIGE": [
           "1_RAP2OKQ",
@@ -1182,7 +1189,7 @@ product_data = {
       "image_id": "5_J2PXNXG",
       "image_thumbnail_id": "5_J2PXNXG_T",
       "brand": "OFF WHITE",
-      "price": "277.00",
+      "price":"277.00",
       "colour_image_map": {
         "BLACK": [
           "5_J2PXNXG",
@@ -1201,7 +1208,7 @@ product_data = {
       "image_id": "10_QW8OSUG",
       "image_thumbnail_id": "10_QW8OSUG_T",
       "brand": "Napapijri",
-      "price": "45.00",
+      "price":"45.00",
       "colour_image_map": {
         "ORANGE": [
           "10_QW8OSUG",
@@ -1227,7 +1234,7 @@ product_data = {
       "image_id": "20_F0R76SA",
       "image_thumbnail_id": "20_F0R76SA_T",
       "brand": "TUMI",
-      "price": "650.00",
+      "price":"650.00",
       "colour_image_map": {
         "BLACK": [
           "20_F0R76SA",
@@ -1245,7 +1252,7 @@ product_data = {
       "image_id": "24_B06D9CZ",
       "image_thumbnail_id": "24_B06D9CZ_T",
       "brand": "Burberry",
-      "price": "650.00",
+      "price":"650.00",
       "colour_image_map": {
         "BLACK": [
           "24_B06D9CZ",
@@ -1256,6 +1263,7 @@ product_data = {
       }
     }
   ],
+    
   "MA_HATS_CAPS": [
     {
       "product_id": "5T5QQE1",
@@ -1265,7 +1273,7 @@ product_data = {
       "image_id": "1_5T5QQE1",
       "image_thumbnail_id": "1_5T5QQE1_T",
       "brand": "Hugo Boss",
-      "price": "39.00",
+      "price":"39.00",
       "colour_image_map": {
         "WHITE": [
           "1_5T5QQE1",
@@ -1282,7 +1290,7 @@ product_data = {
       "image_id": "4_FBCG41H",
       "image_thumbnail_id": "4_FBCG41H_T",
       "brand": "Paul And Shark",
-      "price": "55.00",
+      "price":"55.00",
       "colour_image_map": {
         "NAVY": [
           "4_FBCG41H",
@@ -1300,7 +1308,7 @@ product_data = {
       "image_id": "8_RMM8ZJ0",
       "image_thumbnail_id": "8_RMM8ZJ0_T",
       "brand": "GUCCI",
-      "price": "360.00",
+      "price":"360.00",
       "colour_image_map": {
         "WHITE": [
           "8_RMM8ZJ0",
@@ -1318,7 +1326,7 @@ product_data = {
       "image_id": "12_EHAXFFG",
       "image_thumbnail_id": "12_EHAXFFG_T",
       "brand": "GIUSEPPE ZANOTTI",
-      "price": "250.00",
+      "price":"250.00",
       "colour_image_map": {
         "RED/GOLD": [
           "12_EHAXFFG",
@@ -1342,7 +1350,7 @@ product_data = {
       "image_id": "20_2HWV2OM",
       "image_thumbnail_id": "20_2HWV2OM_T",
       "brand": "BALR",
-      "price": "60.00",
+      "price":"60.00",
       "colour_image_map": {
         "BLACK": [
           "20_2HWV2OM",
@@ -1351,8 +1359,9 @@ product_data = {
           "23_2HWV2OM"
         ]
       }
-    }
+    }     
   ],
+    
   "WC_DRESSES": [
     {
       "product_id": "YU3YASN",
@@ -1362,7 +1371,7 @@ product_data = {
       "image_id": "1_YU3YASN",
       "image_thumbnail_id": "1_YU3YASN_T",
       "brand": "Michael Kors",
-      "price": "150.00",
+      "price":"150.00",
       "colour_image_map": {
         "BLACK/PINK": [
           "1_YU3YASN",
@@ -1381,7 +1390,7 @@ product_data = {
       "image_id": "6_9HU95PA",
       "image_thumbnail_id": "6_9HU95PA_T",
       "brand": "ZIMMERMANN",
-      "price": "406.00",
+      "price":"406.00",
       "colour_image_map": {
         "LILAC": [
           "6_9HU95PA",
@@ -1399,7 +1408,7 @@ product_data = {
       "image_id": "10_ENB6YL6",
       "image_thumbnail_id": "10_ENB6YL6_T",
       "brand": "DVF",
-      "price": "159.00",
+      "price":"159.00",
       "colour_image_map": {
         "FLEUR DOT": [
           "10_ENB6YL6",
@@ -1423,7 +1432,7 @@ product_data = {
       "image_id": "18_IX9ETYU",
       "image_thumbnail_id": "18_IX9ETYU_T",
       "brand": "ZIMMERMANN",
-      "price": "469.00",
+      "price":"469.00",
       "colour_image_map": {
         "FLORAL": [
           "18_IX9ETYU",
@@ -1441,13 +1450,13 @@ product_data = {
       "image_id": "22_D3KEYN7",
       "image_thumbnail_id": "22_D3KEYN7_T",
       "brand": "ZIMMERMANN",
-      "price": "441.00",
+      "price":"441.00",
       "colour_image_map": {
         "IVORY": [
           "22_D3KEYN7",
           "23_D3KEYN7",
           "24_D3KEYN7",
-          "25_D3KEYN7"
+          "25_D3KEYN7"  
         ]
       }
     },
@@ -1459,7 +1468,7 @@ product_data = {
       "image_id": "26_1ITVHC7",
       "image_thumbnail_id": "26_1ITVHC7_T",
       "brand": "SELF PORTRAIT",
-      "price": "300.00",
+      "price":"300.00",
       "colour_image_map": {
         "PINK": [
           "26_1ITVHC7",
@@ -1477,7 +1486,7 @@ product_data = {
       "image_id": "30_2DG1Q8X",
       "image_thumbnail_id": "30_2DG1Q8X_T",
       "brand": "GUCCI",
-      "price": "1200.00",
+      "price":"1200.00",
       "colour_image_map": {
         "BLACK": [
           "30_2DG1Q8X",
@@ -1490,12 +1499,13 @@ product_data = {
     {
       "product_id": "G1T2NIQ",
       "name": "MMK Wrap Drs Ld92",
-      "long_description": "Add some sophistication into your collection with this Web ruffle dress from MICHAEL Michael Kors. Made in Italy, this chic style is crafted with three quarter length sleeves, a full length central zip closure to the front and ruffling to the trims. This dress boasts the brands iconic Webbing in a band to the waist and in a pussy bow style, completing the dress.",
+      "long_description": "Add some sophistication into your collection with this Web ruffle dress from Michael Kors. Made in Italy, this chic style is crafted with three quarter length sleeves, a full length central zip closure to the front and ruffling to the trims. This dress boasts the brands iconic Webbing in a band to the waist and in a pussy bow style, completing the dress.",
+      "info": "98% polyester, 2% elastane",
       "info": "98% polyester, 2% elastane",
       "image_id": "34_G1T2NIQ",
       "image_thumbnail_id": "34_G1T2NIQ_T",
       "brand": "Michael Kors",
-      "price": "195.00",
+      "price":"195.00",
       "colour_image_map": {
         "BLACK/YELLOW": [
           "34_G1T2NIQ",
@@ -1513,7 +1523,7 @@ product_data = {
       "image_id": "38_WUGO2O5",
       "image_thumbnail_id": "38_WUGO2O5_T",
       "brand": "JUST CAVALLI",
-      "price": "204.00",
+      "price":"204.00",
       "colour_image_map": {
         "YELLOW": [
           "38_WUGO2O5",
@@ -1523,6 +1533,683 @@ product_data = {
         ]
       }
     },
-  ]
+    {
+      "product_id": "6I33EBA",
+      "name": "Striped Short Dress",
+      "long_description": "Revamp your evening collection with Patrizia Pepe's Striped Short Dress. This slim fitting style is constructed with a high neck line, capped sleeves and contrasting panels for the top and skirt. Featuring bow detailing to the back and a concealed zip closure, this piece is finished with a multi tonal striped pattern to the top. ",
+      "info": "98% polyester, 2% elastane",
+      "image_id": "42_6I33EBA",
+      "image_thumbnail_id": "42_6I33EBA_T",
+      "brand": "PATRIZIA PEPE",
+      "price":"195.00",
+      "colour_image_map": {
+        "NAVY": [
+          "42_6I33EBA",
+          "43_6I33EBA",
+          "44_6I33EBA",
+          "45_6I33EBA"
+        ]
+      }
+    },
+    {
+      "product_id": "QBTCOCK",
+      "name": "Lace Panel Maxi Dress",
+      "long_description": "Give your dress collection an elegant finish with this lace panel maxi dress from Perseverance London. Crafted with a v neckline with a concealed zip closure to the rear, this style is finished with feminine scalloped lace panels and a contrasting satin hem.",
+      "info": "98% polyester, 2% elastane",
+      "image_id": "46_QBTCOCK",
+      "image_thumbnail_id": "46_QBTCOCK_T",
+      "brand": "PERSEVERANCE LONDON",
+      "price":"430.00",
+      "colour_image_map": {
+        "COPPER": [
+          "46_QBTCOCK",
+          "47_QBTCOCK",
+          "48_QBTCOCK",
+          "49_QBTCOCK",
+          "50_QBTCOCK"
+        ]
+      }
+    },
+    {
+      "product_id": "KTN1J8J",
+      "name": "Mini Shift Dress",
+      "long_description": "Refine your dress collection with Gucci's Mini Shift dress. Crafted with a rounded neckline and sleeveless style, this dress features contrasting trims. Boasting a concealed zip closure. Finished with two button pockets that feature GG engraved to the buttons.",
+      "info": "98% polyester, 2% elastane",
+      "image_id": "51_KTN1J8J",
+      "image_thumbnail_id": "51_KTN1J8J_T",
+      "brand": "GUCCI",
+      "price":"1340.00",
+      "colour_image_map": {
+        "PINK": [
+          "51_KTN1J8J",
+          "52_KTN1J8J",
+          "53_KTN1J8J"
+        ]
+      }
+    },
+    {
+      "product_id": "LOS2UO8",
+      "name": "Ruffled Silk Flying Phoenix Dress",
+      "long_description": "Refine your dress collection with this Kenzo ruffled silk flying phoenix dress. Constructed with shoe string straps, this midi dress features a v neckline, ruffled pleats and a slit to the front hem. Finished in an all over flying phoenix print, this silk piece is a must have for the summer seasons.",
+      "info": "98% polyester, 2% elastane",
+      "image_id": "54_LOS2UO8",
+      "image_thumbnail_id": "54_LOS2UO8_T",
+      "brand": "KENZO",
+      "price":"357.00",
+      "colour_image_map": {
+        "PINK": [
+          "54_LOS2UO8",
+          "55_LOS2UO8",
+          "56_LOS2UO8",
+          "57_LOS2UO8"
+        ]
+      }
+    },
+    {
+      "product_id": "Q1J0J0B",
+      "name": "Short Sleeve Dress",
+      "long_description": "Redefine smart casual in this Calvin Klein Performance Short Sleeve Dress. Crafted in a comfortable and warm cotton-based blend this dress features short sleeves, a striking block design and Calvin Klein Performance branding.",
+      "info": "98% polyester, 2% elastane",
+      "image_id": "58_Q1J0J0B",
+      "image_thumbnail_id": "58_Q1J0J0B_T",
+      "brand": "Calvin Klein",
+      "price":"75.00",
+      "colour_image_map": {
+        "BLACK": [
+          "58_Q1J0J0B",
+          "59_Q1J0J0B",
+          "60_Q1J0J0B",
+          "61_Q1J0J0B",
+          "62_Q1J0J0B"
+        ]
+      }
+    },
+    {
+      "product_id": "O70OI13",
+      "name": "Polo Terry Haltr Drs Ld92",
+      "long_description": " Invest in luxury with the Polo Ralph Lauren Bells Shirt Dress. This vibrant cover-up dress features a keyhole effect neckline and a rounded hemline, cut to sit high on the thigh. Boasting dramatic slide slits and a matching waist tie belt, this dress is finished with pinned-up sleeves.",
+      "info": "98% polyester, 2% elastane",
+      "image_id": "63_O70OI13",
+      "image_thumbnail_id": "63_O70OI13_T",
+      "brand": "Polo Ralph Lauren",
+      "price":"90.00",
+      "colour_image_map": {
+        "BLACK": [
+          "63_O70OI13",
+          "64_O70OI13",
+          "65_O70OI13",
+          "66_O70OI13"
+        ]
+      }
+    },
+    {
+      "product_id": "OKG74AR",
+      "name": "Vian Dress",
+      "long_description": "Vivienne Westwood Anglomania's Vian dress sticks true to the brands signature flair for draping. Made in Italy from a lightweight jersey, this style is crafted in a one shoulder design and boasts a midi-cut. Finished with gathered and draped elements to the body, this dress will flatter your figure.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "67_OKG74AR",
+      "image_thumbnail_id": "67_OKG74AR_T",
+      "brand": "VWA",
+      "price":"275.00",
+      "colour_image_map": {
+        "RED": [
+          "67_OKG74AR",
+          "68_OKG74AR",
+          "69_OKG74AR",
+          "70_OKG74AR",
+          "71_OKG74AR"
+        ]
+      }
+    },
+    {
+      "product_id": "L1LH6S7",
+      "name": "Polo Alyah Pleat Mxi Ld93",
+      "long_description": "Polo Ralph Lauren's Vian dress sticks true to the brands signature flair for draping. Made in Italy from a lightweight jersey, this style is crafted in a one shoulder design and boasts a midi-cut. Finished with gathered and draped elements to the body, this dress will flatter your figure.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "72_L1LH6S7",
+      "image_thumbnail_id": "72_L1LH6S7_T",
+      "brand": "Polo Ralph Lauren",
+      "price":"349.00",
+      "colour_image_map": {
+        "MULTI": [
+          "72_L1LH6S7",
+          "73_L1LH6S7"
+        ]
+      }
+    },
+    {
+      "product_id": "Q8NFDIT",
+      "name": "Dantia Dress",
+      "long_description": "Refresh your collection with this Dantia dress from BOSS. Constructed in a midi length, this piece features a rounded neckline and sleeveless design. Boasting a concealed zip to the back, this dress features a slit to the front. This dress is not to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "74_Q8NFDIT",
+      "image_thumbnail_id": "74_Q8NFDIT_T",
+      "brand": "BOSS SMART CASUAL",
+      "price":"299.00",
+      "colour_image_map": {
+        "BLUE": [
+          "74_Q8NFDIT",
+          "75_Q8NFDIT",
+          "76_Q8NFDIT",
+          "77_Q8NFDIT"
+        ]
+      }
+    },
+    {
+      "product_id": "2V2H79O",
+      "name": "Desplisa Dress",
+      "long_description": "Update your casual dress collection with the Desplisa dress from BOSS. Designed in a sleeveless style with a scoop neckline and asymmetric layering, this dress features a pleated pattern. Finished with brush-stroke artwork and hand painted edges, this is not to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "78_2V2H79O",
+      "image_thumbnail_id": "78_2V2H79O_T",
+      "brand": "BOSS SMART CASUAL",
+      "price":"525.00",
+      "colour_image_map": {
+        "WHITE": [
+          "78_2V2H79O",
+          "79_2V2H79O",
+          "80_2V2H79O"
+        ]
+      }
+    },
+    {
+      "product_id": "14R6OR8",
+      "name": "Zofia Short Dress",
+      "long_description": "Invest in this Agent Provocateur Zofia short dress. Crafted with an alluring twist and elegant long sleeves, this little dress features open cut-out panels to the shoulder and waist. Finished with two side slits and an asymmetric silhouette.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "81_14R6OR8",
+      "image_thumbnail_id": "81_14R6OR8_T",
+      "brand": "AGENT PROVOCATEUR",
+      "price":"200.00",
+      "colour_image_map": {
+        "BLACK": [
+          "81_14R6OR8",
+          "82_14R6OR8",
+          "83_14R6OR8",
+          "84_14R6OR8",
+          "85_14R6OR8"
+        ]
+      }
+    } 
+  ],    
+    
+  "WC_TOPS": [
+    {
+      "product_id": "FDJD03B",
+      "name": "Logo Vest T Shirt",
+      "long_description": "Refresh your staple wardrobe with the logo vest t shirt from Balmain. This classic sleeveless style is designed with a crew neckline, branded buttons to one shoulder and is finished with the brands signature logo in tonal wording to the chest.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "1_FDJD03B",
+      "image_thumbnail_id": "1_FDJD03B_T",
+      "brand": "BALMAIN",
+      "price":"195.00",
+      "colour_image_map": {
+        "BLACK": [
+          "1_FDJD03B",
+          "2_FDJD03B",
+          "3_FDJD03B",
+          "4_FDJD03B"
+        ],
+        "PEACH": [
+          "5_FDJD03B",
+          "6_FDJD03B",
+          "7_FDJD03B"
+        ]
+      }
+    },
+    {
+      "product_id": "RTUS3HV",
+      "name": "Chaos T Shirt",
+      "long_description": "Upgrade your staple wardrobe with the chaos t shirt from Vivienne Westwood Anglomania. Cut in a classic crew neckline, this piece features with short sleeves and ribbed trims. Finished with the brands signature logo with tonal text to the front, this piece is not one to be missed. ",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "8_RTUS3HV",
+      "image_thumbnail_id": "8_RTUS3HV_T",
+      "brand": "VIVIENNE WESTWOOD",
+      "price":"95.00",
+      "colour_image_map": {
+        "WHITE": [
+          "8_RTUS3HV",
+          "9_RTUS3HV",
+          "10_RTUS3HV"
+        ]
+      }
+    },
+    {
+      "product_id": "9CN4SVB",
+      "name": "Logo Crop T Shirt",
+      "long_description": "Update your casual attire with this logo crop t shirt from DSquared2. This cropped style features short sleeves and a crew neckline, finished with the brands signature logo emblazoned across the chest. This t shirt is not to be missed and would make a welcome addition to your wardrobe.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "11_9CN4SVB",
+      "image_thumbnail_id": "11_9CN4SVB_T",
+      "brand": "DSQUARED2",
+      "price":"180.00",
+      "colour_image_map": {
+        "BLACK": [
+          "11_9CN4SVB",
+          "12_9CN4SVB",
+          "13_9CN4SVB"
+        ],
+        "WHITE": [
+          "14_9CN4SVB",
+          "15_9CN4SVB",
+          "16_9CN4SVB"
+        ]
+      }
+    },
+    {
+      "product_id": "A1N1OBZ",
+      "name": "Medallion Print Vest",
+      "long_description": "Refresh your off duty collection with the medallion print vest from Balmain. Constructed to a sleeveless style, this piece features a crew neckline and the brands iconic branded buttons to the shoulders. Finished a branded coin emblazoned to the chest, this piece is not one to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "17_A1N1OBZ",
+      "image_thumbnail_id": "17_A1N1OBZ_T",
+      "brand": "BALMAIN",
+      "price":"225.00",
+      "colour_image_map": {
+        "BLACK": [
+          "17_A1N1OBZ",
+          "18_A1N1OBZ",
+          "19_A1N1OBZ"
+        ]
+      }
+    },
+    {
+      "product_id": "6U4IJY8",
+      "name": "Boyfriend Logo T Shirt",
+      "long_description": "Revitalise your casual attire with this boyfriend logo t shirt from McQ Alexander McQueen. Crafted with short sleeves, this piece features a crew neckline and ribbed trims. Finished with the brands signature logo to the front, this piece is not one to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "20_6U4IJY8",
+      "image_thumbnail_id": "20_6U4IJY8_T",
+      "brand": "MCQ",
+      "price":"130.00",
+      "colour_image_map": {
+        "ACID PINK": [
+          "20_6U4IJY8",
+          "21_6U4IJY8",
+          "22_6U4IJY8"
+        ]
+      }
+    },
+    {
+      "product_id": "BH1SP2Z",
+      "name": "Logo Tape Tank Top",
+      "long_description": "Refresh your collection with this logo tape tank top from Emporio Armani. Crafted to a sleeveless style, this piece features a rounded neckline and racer back. Finished with the brands signature logo to the straps, this piece is not one to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "23_BH1SP2Z",
+      "image_thumbnail_id": "23_BH1SP2Z_T",
+      "brand": "EMPORIO ARMANI",
+      "price":"36.00",
+      "colour_image_map": {
+        "MARINE": [
+          "23_BH1SP2Z",
+          "24_BH1SP2Z",
+          "25_BH1SP2Z",
+          "26_BH1SP2Z"
+        ]
+      }
+    },
+    {
+      "product_id": "KP34LCW",
+      "name": "MMK Ruffle Ls Blouse Ld92",
+      "long_description": "Refresh your collection with this logo tape tank top from Emporio Armani. Crafted to a sleeveless style, this piece features a rounded neckline and racer back. Finished with the brands signature logo to the straps, this piece is not one to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "27_KP34LCW",
+      "image_thumbnail_id": "27_KP34LCW_T",
+      "brand": "Michael Kors",
+      "price":"135.00",
+      "colour_image_map": {
+        "PINK": [
+          "27_KP34LCW",
+          "28_KP34LCW",
+          "29_KP34LCW",
+          "30_KP34LCW"
+        ]
+      }
+    },
+    {
+      "product_id": "HH8V4OS",
+      "name": "Bow Logo T Shirt",
+      "long_description": "Refresh your daily essentials with the Boutique Moschino Bow Logo t shirt. Crafted with short sleeves, this piece features a crew neckline and oversized short sleeves. Finished with a chain ribbon design to the neck and the brands logo to the centre.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "31_HH8V4OS",
+      "image_thumbnail_id": "31_HH8V4OS_T",
+      "brand": "BOUTIQUE MOSCHINO",
+      "price":"135.00",
+      "colour_image_map": {
+        "BLACK": [
+          "31_HH8V4OS",
+          "32_HH8V4OS",
+          "33_HH8V4OS",
+          "34_HH8V4OS",
+          "35_HH8V4OS"
+        ]
+      }
+    },
+    {
+      "product_id": "NZJJMRY",
+      "name": "Laurel Floral Top",
+      "long_description": "Update your collection with the LoveshackFancy Laurel floral top. Constructed with a rounded neckline and central button closure, this top boasts layered details and short sleeves. Featuring a floral print all over, this bohemian style top is a must have.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "36_NZJJMRY",
+      "image_thumbnail_id": "36_NZJJMRY_T",
+      "brand": "LOVESHACKFANCY",
+      "price":"220.00",
+      "colour_image_map": {
+        "BLUE": [
+          "36_NZJJMRY",
+          "37_NZJJMRY",
+          "38_NZJJMRY"
+        ]
+      }
+    },
+    {
+      "product_id": "WGCIKII",
+      "name": "Domino Floral Wrap Top",
+      "long_description": "Refresh your collection with this domino floral wrap top from LoveShackFancy. Crafted with a deep v neckline, this piece features blouson sleeves and a tie to the waistband. Finished with an all over floral print, this piece is not one to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "39_WGCIKII",
+      "image_thumbnail_id": "39_WGCIKII_T",
+      "brand": "LOVESHACKFANCY",
+      "price":"290.00",
+      "colour_image_map": {
+        "PINK": [
+          "39_WGCIKII",
+          "40_WGCIKII",
+          "41_WGCIKII"
+        ]
+      }
+    }
+  ],    
+    
+  "WC_TROUSERS": [
+    {
+      "product_id": "ZNNFWDD",
+      "name": "Sports Leggings",
+      "long_description": "Add to your weekend wardrobe with these Calvin Klein Performance Crafted from a moisture wicking fabric, these leggings feature a high-rise waistband for extra support and coverage. Boasting an optimised stretch and finished with the brands signature logo to the waistband and leg.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "1_ZNNFWDD",
+      "image_thumbnail_id": "1_ZNNFWDD_T",
+      "brand": "CALVIN KLEIN",
+      "price":"33.00",
+      "colour_image_map": {
+        "BLACK": [
+          "1_ZNNFWDD",
+          "2_ZNNFWDD",
+          "3_ZNNFWDD",
+          "4_ZNNFWDD",
+          "5_ZNNFWDD"
+        ]
+      }
+    },
+    {
+      "product_id": "EUJGYRY",
+      "name": "Logo Waistband Leggings",
+      "long_description": "Add to your weekend wardrobe with these Emporio Armani logo waistband leggings. Crafted with the brands signature logo to the waistband and Eagle to the leg, this pair are a must have.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "6_EUJGYRY",
+      "image_thumbnail_id": "6_EUJGYRY_T",
+      "brand": "EMPORIO ARMANI",
+      "price":"50.00",
+      "colour_image_map": {
+        "MARINE": [
+          "6_EUJGYRY",
+          "7_EUJGYRY",
+          "8_EUJGYRY",
+          "9_EUJGYRY",
+          "10_EUJGYRY"
+        ]
+      }
+    },
+    {
+      "product_id": "FJCGS4R",
+      "name": "Floral Semi Sheer Leggings",
+      "long_description": "These floral semi sheer leggings from Off White are the perfect contemporary addition to your wardrobe. Constructed with a branded elasticated waistband, these leggings are cut from a semi sheer fabric and boasts an all over floral print, making them a welcome addition to your wardrobe.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "11_FJCGS4R",
+      "image_thumbnail_id": "11_FJCGS4R_T",
+      "brand": "OFF WHITE",
+      "price":"310.00",
+      "colour_image_map": {
+        "BLACK": [
+          "11_FJCGS4R",
+          "12_FJCGS4R",
+          "13_FJCGS4R",
+          "14_FJCGS4R"
+        ]
+      }
+    },
+    {
+      "product_id": "MMJYL7T",
+      "name": "Norali Stripe Trousers",
+      "long_description": "Bring your wardrobe up-to-date with the By Malene Birger Norali Stripe trousers. Crafted with an elasticated waistband, this piece features an all over striped print.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "15_MMJYL7T",
+      "image_thumbnail_id": "15_MMJYL7T_T",
+      "brand": "BY MALENE BIRGER",
+      "price":"145.00",
+      "colour_image_map": {
+        "BLACK STRIPE": [
+          "15_MMJYL7T",
+          "16_MMJYL7T",
+          "17_MMJYL7T",
+          "18_MMJYL7T"
+        ]
+      }
+    },
+    {
+      "product_id": "G6GBE13",
+      "name": "Ck Perf Side Lgo Lg Ld92",
+      "long_description": "Bring your wardrobe up-to-date with the Calvin Klein Norali Stripe trousers. Crafted with an elasticated waistband, this piece features an all over striped print.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "19_G6GBE13",
+      "image_thumbnail_id": "19_G6GBE13_T",
+      "brand": "CALVIN KLEIN",
+      "price":"50.00",
+      "colour_image_map": {
+        "BLUE": [
+          "19_G6GBE13",
+          "20_G6GBE13",
+          "21_G6GBE13",
+          "22_G6GBE13"
+        ]
+      }
+    },
+    {
+      "product_id": "O14M0TL",
+      "name": "Gg Wide Leg Trousers",
+      "long_description": "Refine your look with Gucci's GG wide leg trousers. Crafted with four pockets, this piece features a concealed zip and button closure, wide leg fit and a tonal trim to the sides. Finished with the brands signature GG print, this piece would make a welcome addition to your wardrobe.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "23_O14M0TL",
+      "image_thumbnail_id": "23_O14M0TL_T",
+      "brand": "GUCCI",
+      "price":"799.00",
+      "colour_image_map": {
+        "CASPIAN": [
+          "23_O14M0TL",
+          "24_O14M0TL",
+          "25_O14M0TL",
+          "26_O14M0TL"
+        ]
+      }
+    },
+    {
+      "product_id": "49MR07F",
+      "name": "Gg Trousers",
+      "long_description": "Refine your look with Gucci's GG trousers. Inspired by the brand's Italian elegance, these classic trousers are designed in a straight fit with the famous GG logo waistband and partially concealed button fastenings. These sophisticated trousers would be a welcome addition to your wardrobe.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "27_49MR07F",
+      "image_thumbnail_id": "27_49MR07F_T",
+      "brand": "GUCCI",
+      "price":"750.00",
+      "colour_image_map": {
+        "BLACK": [
+          "27_49MR07F",
+          "28_49MR07F",
+          "29_49MR07F",
+          "30_49MR07F"
+        ]
+      }
+    },
+    {
+      "product_id": "9X8452W",
+      "name": "Portofino Caddy Jogging Bottoms",
+      "long_description": "Update your casual collection with these portofino caddy jogging bottoms from Dolce And Gabbana. Crafted with a stretch waistband and adjustable toggles, this pair features cuffed ankles, two zip pockets and striped branded taping to both legs. Finished with a floral print all over, this piece is not one to be missed.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "31_9X8452W",
+      "image_thumbnail_id": "31_9X8452W_T",
+      "brand": "DOLCE N GABBANA",
+      "price":"775.00",
+      "colour_image_map": {
+        "MULTI": [
+          "31_9X8452W",
+          "32_9X8452W",
+          "33_9X8452W",
+          "34_9X8452W"
+        ]
+      }
+    },
+    {
+      "product_id": "UF1RJT2",
+      "name": "Legging Jeans",
+      "long_description": "Invest in the True Religion Runway legging jeans. This skinny fit style is designed in a a super stretch denim for ultimate comfort and features tonal stitching, branded metal hardware and four pockets.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "35_UF1RJT2",
+      "image_thumbnail_id": "35_UF1RJT2_T",
+      "brand": "True Religion",
+      "price":"104.00",
+      "colour_image_map": {
+        "BLUE": [
+          "35_UF1RJT2",
+          "36_UF1RJT2",
+          "37_UF1RJT2",
+          "38_UF1RJT2"
+        ],
+        "BLACK": [
+          "39_UF1RJT2",
+          "40_UF1RJT2",
+          "41_UF1RJT2",
+          "42_UF1RJT2"
+        ]
+      }
+    },
+    {
+      "product_id": "123AS3Y",
+      "name": "Cropped Slim Trousers",
+      "long_description": "Refine your look with these cropped slim trousers from Victoria by Victoria Beckham. Crafted to a cropped style, this piece features a zip and button closure, belt loops and four pockets. Finished with a contrasting satin waist, this piece is not one to be missed. ",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "43_123AS3Y",
+      "image_thumbnail_id": "43_123AS3Y_T",
+      "brand": "VICTORIA BECKHAM",
+      "price":"277.00",
+      "colour_image_map": {
+        "GREEN": [
+          "43_123AS3Y",
+          "44_123AS3Y",
+          "45_123AS3Y",
+          "46_123AS3Y",
+          "47_123AS3Y"
+        ]
+      }
+    } 
+  ],    
+    
+  "WS_BOOTS": [
+    {
+      "product_id": "2JU0UX4",
+      "name": "Marmont Leather Ankle Boots",
+      "long_description": "Upgrade your everyday footwear collection with the Marmont leather ankle boots from Gucci. Featuring fold over fringe detailing to the toe, this smooth leather style is cut to an ankle length with a low heel and a zip fastening to the side. Designed with a squared toe, this sophisticated style is finished with the brands signature interlocking G to the front.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "1_2JU0UX4",
+      "image_thumbnail_id": "1_2JU0UX4_T",
+      "brand": "GUCCI",
+      "price":"799.00",
+      "colour_image_map": {
+        "BLACK": [
+          "1_2JU0UX4",
+          "2_2JU0UX4",
+          "3_2JU0UX4",
+          "4_2JU0UX4",
+          "5_2JU0UX4"
+        ]
+      }
+    },
+    {
+      "product_id": "2E1DQ3Y",
+      "name": "Rockstud Heeled Ankle Boots",
+      "long_description": "Step in style with the Rockstud Heeled Ankle boots from Valentino GARAVANI. Crafted in a smooth leather with a pointed toe, this pair feature rockstud detail to the sides and front. Finished with a stiletto heel and inside zip, this pair would make a welcome addition.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "6_2JU0UX4",
+      "image_thumbnail_id": "6_2JU0UX4_T",
+      "brand": "VALENTINO",
+      "price":"780.00",
+      "colour_image_map": {
+        "BLACK": [
+          "6_2JU0UX4",
+          "7_2JU0UX4",
+          "8_2JU0UX4",
+          "9_2JU0UX4",
+          "10_2JU0UX4"
+        ]
+      }
+    },
+    {
+      "product_id": "3WND6I4",
+      "name": "Czech Boots",
+      "long_description": "Upgrade your everyday footwear collection with the Czech boots from Magda Butrym. Crafted in a smooth leather, these boots feature a unique cut to the knee, pointed toe and kitten heel. Finished with a detachable draped jewel design to the front, these are a must have.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "11_3WND6I4",
+      "image_thumbnail_id": "11_3WND6I4_T",
+      "brand": "MAGDA BUTRYM",
+      "price":"1081.00",
+      "colour_image_map": {
+        "CREAM": [
+          "11_3WND6I4",
+          "12_3WND6I4",
+          "13_3WND6I4",
+          "14_3WND6I4",
+          "15_3WND6I4"
+        ]
+      }
+    },
+    {
+      "product_id": "7O13DZV",
+      "name": "Susanna Short Boots",
+      "long_description": "Upgrade your footwear collection with the Susanna Short Boots  from Chloe. Crafted with a trio of buckle straps across the front, this piece features an elongated pointed toe, a zip closure to the side and a low cuban heel. Finished with the brands iconic embellished floral pattern in metal studs, this statement piece would make a welcome addition to your collection.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "16_7O13DZV",
+      "image_thumbnail_id": "16_7O13DZV_T",
+      "brand": "CHLOE",
+      "price":"680.00",
+      "colour_image_map": {
+        "BLACK/GOLD": [
+          "16_7O13DZV",
+          "17_7O13DZV",
+          "18_7O13DZV",
+          "19_7O13DZV",
+          "20_7O13DZV"
+        ]
+      }
+    },
+    {
+      "product_id": "Y929WCY",
+      "name": "Chloe Rylee Croc Medium Boots",
+      "long_description": "The Rylee medium croc boots from Chloe are the perfect piece to complete your footwear collection. Crafted using a crocodile print leather, this style features two straps adorned with metal buckles to the top, whilst the main shoe boasts cut out detailing. Sitting on a Western heel constructed from stacked leather and matte rubber, this lace up pair would make a welcome addition.",
+      "info": "Upper, lining and sole: leather",
+      "image_id": "21_Y929WCY",
+      "image_thumbnail_id": "21_Y929WCY_T",
+      "brand": "CHLOE",
+      "price":"1095.00",
+      "colour_image_map": {
+        "SEPTSUN": [
+          "21_Y929WCY",
+          "22_Y929WCY",
+          "23_Y929WCY",
+          "24_Y929WCY",
+          "25_Y929WCY"
+        ]
+      }
+    }     
+  ],
 }
 # print(json.dumps(product_data, indent=4))

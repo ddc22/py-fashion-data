@@ -10,6 +10,8 @@ image_category = 'PRODUCT'
 
 workdir = os.getcwd()
 
+missing_images = []
+
 
 def get_base_64_image(image_id, extension):
     img_path = workdir+"/resources/images/PRODUCTS/"+image_id+"."+extension
@@ -18,7 +20,8 @@ def get_base_64_image(image_id, extension):
             encoded_string = str(base64.b64encode(image_file.read()))
         return encoded_string[2:-1]
     else:
-        logging.warning(' The Image '+img_path+" Does not exist")
+        missing_images.append(image_id)
+        logging.exception(' The Image '+img_path+" Does not exist")
         return ''
 
 
@@ -64,3 +67,4 @@ def generate():
 
     """.format(count=str(len(xml_collection))))
     file_writer.write_config("Image.xml", xml_collection)
+    logging.warning("Missing images: ", missing_images)
